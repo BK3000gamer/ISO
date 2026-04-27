@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://cje7sw22dd5jx"]
+
+[ext_resource type="Script" uid="uid://cbk3wx7204tjo" path="res://page_logic.gd" id="1_6nh0f"]
+[ext_resource type="Script" uid="uid://bgvpppovvk8yy" path="res://book.gd" id="1_y0hms"]
+[ext_resource type="Script" uid="uid://bd056nbfj2dlb" path="res://Book_Page.gd" id="2_f0xhj"]
+[ext_resource type="Resource" uid="uid://bsg0fh3fmjlgg" path="res://Page_0_Cover.tres" id="3_3r6c0"]
+[ext_resource type="Resource" uid="uid://cnhvt1s14f7w3" path="res://Puzzle_Page_1.tres" id="4_3r6c0"]
+
+[node name="BookManager" type="Node2D" unique_id=2069778489]
+script = ExtResource("1_y0hms")
+book_pages = Array[ExtResource("2_f0xhj")]([ExtResource("3_3r6c0"), ExtResource("4_3r6c0"), ExtResource("3_3r6c0"), ExtResource("3_3r6c0"), ExtResource("3_3r6c0"), ExtResource("3_3r6c0"), ExtResource("3_3r6c0"), ExtResource("3_3r6c0")])
+
+[node name="Left_Page" type="Control" parent="." unique_id=826532606]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -300.0
+offset_top = -400.0
+size_flags_horizontal = 0
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="Left_Photo_Texture" type="TextureRect" parent="Left_Page" unique_id=2114373491]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[node name="Right_Page" type="Control" parent="." unique_id=1139378063]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 0
+offset_top = -400.0
+offset_right = 300.0
+size_flags_horizontal = 8
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="Right_Photo_Texture" type="TextureRect" parent="Right_Page" unique_id=1550544366]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[node name="Page_Flipper" type="MeshInstance2D" parent="." unique_id=640898764]
+script = ExtResource("1_6nh0f")
+drag_sens = 1.5
+page_width = 300.0
+page_height = 400.0

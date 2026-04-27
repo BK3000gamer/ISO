@@ -1,0 +1,98 @@
+[gd_scene format=3 uid="uid://y1k88pjwi7w5"]
+
+[ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_by6gx"]
+[ext_resource type="Texture2D" uid="uid://dcct0qme3v43g" path="res://icon.svg" id="1_oc1gl"]
+[ext_resource type="Script" uid="uid://c64vuauhkcl4x" path="res://drag_photos.gd" id="2_by6gx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3bbvo"]
+atlas = ExtResource("1_oc1gl")
+region = Rect2(0, 0, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ps713"]
+atlas = ExtResource("1_oc1gl")
+region = Rect2(77, 0, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_trdsm"]
+atlas = ExtResource("1_oc1gl")
+region = Rect2(0, 77, 50, 50)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_icfgc"]
+atlas = ExtResource("1_oc1gl")
+region = Rect2(77, 77, 50, 50)
+
+[node name="PuzzlePhoto" type="Control" unique_id=1358197737]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 300.0
+offset_bottom = 400.0
+mouse_filter = 1
+script = ExtResource("1_by6gx")
+
+[node name="Page" type="TextureRect" parent="." unique_id=1124862306]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_oc1gl")
+expand_mode = 1
+
+[node name="Piece1" type="TextureRect" parent="." unique_id=1351990875]
+layout_mode = 1
+offset_left = 73.0
+offset_top = 77.0
+offset_right = 113.0
+offset_bottom = 117.0
+mouse_filter = 0
+texture = SubResource("AtlasTexture_3bbvo")
+expand_mode = 1
+script = ExtResource("2_by6gx")
+
+[node name="Piece2" type="TextureRect" parent="." unique_id=975299792]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -90.0
+offset_top = 37.0
+offset_right = -50.0
+offset_bottom = 77.0
+grow_horizontal = 0
+mouse_filter = 0
+texture = SubResource("AtlasTexture_ps713")
+expand_mode = 1
+script = ExtResource("2_by6gx")
+
+[node name="Piece3" type="TextureRect" parent="." unique_id=732991388]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 201.0
+offset_top = -226.0
+offset_right = 241.0
+offset_bottom = -186.0
+grow_vertical = 0
+mouse_filter = 0
+texture = SubResource("AtlasTexture_trdsm")
+expand_mode = 1
+script = ExtResource("2_by6gx")
+
+[node name="Piece4" type="TextureRect" parent="." unique_id=1726065116]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -205.0
+offset_top = -228.0
+offset_right = -165.0
+offset_bottom = -188.0
+grow_horizontal = 0
+grow_vertical = 0
+mouse_filter = 0
+texture = SubResource("AtlasTexture_icfgc")
+expand_mode = 1
+script = ExtResource("2_by6gx")

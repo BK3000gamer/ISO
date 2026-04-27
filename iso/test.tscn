@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://60qio4won8bl"]
+
+[ext_resource type="PackedScene" uid="uid://cje7sw22dd5jx" path="res://book.tscn" id="1_37kl0"]
+
+[node name="test" type="Node2D" unique_id=238184420]
+
+[node name="BookManager" parent="." unique_id=2069778489 instance=ExtResource("1_37kl0")]
+position = Vector2(552, 433)
