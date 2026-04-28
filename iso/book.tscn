@@ -3,12 +3,22 @@
 [ext_resource type="Script" uid="uid://cbk3wx7204tjo" path="res://page_logic.gd" id="1_6nh0f"]
 [ext_resource type="Script" uid="uid://bgvpppovvk8yy" path="res://book.gd" id="1_y0hms"]
 [ext_resource type="Script" uid="uid://bd056nbfj2dlb" path="res://Book_Page.gd" id="2_f0xhj"]
-[ext_resource type="Resource" uid="uid://bsg0fh3fmjlgg" path="res://Page_0_Cover.tres" id="3_3r6c0"]
-[ext_resource type="Resource" uid="uid://cnhvt1s14f7w3" path="res://Puzzle_Page_1.tres" id="4_3r6c0"]
+[ext_resource type="Resource" uid="uid://bsg0fh3fmjlgg" path="res://BookPageResource/Page_0_Cover.tres" id="3_3r6c0"]
+[ext_resource type="Resource" uid="uid://lxd61pg2yh7s" path="res://BookPageResource/Page_1.tres" id="4_3r6c0"]
+[ext_resource type="Resource" uid="uid://baaoewlq17ccg" path="res://BookPageResource/Page_2.tres" id="5_xeei7"]
+[ext_resource type="Resource" uid="uid://cfmslvk8hwafp" path="res://BookPageResource/Page_3.tres" id="6_rm7y6"]
+[ext_resource type="Resource" uid="uid://v0gsjbfqhvr8" path="res://BookPageResource/Page_4.tres" id="7_7wrkw"]
+[ext_resource type="Resource" uid="uid://3hcikwh3nel2" path="res://BookPageResource/Page_5.tres" id="8_gw1ob"]
+[ext_resource type="Resource" uid="uid://juxeqexeh0gg" path="res://BookPageResource/Page_6.tres" id="9_37pi6"]
+[ext_resource type="Resource" uid="uid://b7alo6o2ks8cj" path="res://BookPageResource/Page_7.tres" id="10_cdt36"]
+[ext_resource type="Resource" uid="uid://c55c1owkpwn85" path="res://BookPageResource/Page_8.tres" id="11_xecwa"]
+[ext_resource type="Resource" uid="uid://dm20kn1nwuaqu" path="res://BookPageResource/Page_9.tres" id="12_ndaiw"]
+[ext_resource type="Resource" uid="uid://bmipv6cwffkfo" path="res://BookPageResource/Page_10.tres" id="13_ie67q"]
+[ext_resource type="Resource" uid="uid://r58uuuushkjv" path="res://BookPageResource/Page_11_End.tres" id="14_yv5wr"]
 
 [node name="BookManager" type="Node2D" unique_id=2069778489]
 script = ExtResource("1_y0hms")
-book_pages = Array[ExtResource("2_f0xhj")]([ExtResource("3_3r6c0"), ExtResource("4_3r6c0"), ExtResource("3_3r6c0"), ExtResource("3_3r6c0"), ExtResource("3_3r6c0"), ExtResource("3_3r6c0"), ExtResource("3_3r6c0"), ExtResource("3_3r6c0")])
+book_pages = Array[ExtResource("2_f0xhj")]([ExtResource("3_3r6c0"), ExtResource("4_3r6c0"), ExtResource("5_xeei7"), ExtResource("6_rm7y6"), ExtResource("7_7wrkw"), ExtResource("8_gw1ob"), ExtResource("9_37pi6"), ExtResource("10_cdt36"), ExtResource("11_xecwa"), ExtResource("12_ndaiw"), ExtResource("13_ie67q"), ExtResource("14_yv5wr")])
 
 [node name="Left_Page" type="Control" parent="." unique_id=826532606]
 clip_contents = true

@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://dvcnbk8w1xt4d"]
+
+[ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_3tvdj"]
+[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_fdca1"]
+[ext_resource type="Texture2D" uid="uid://bdes2obarmrw6" path="res://Assets/Photos/TextBook.jpg" id="3_xent3"]
+[ext_resource type="Texture2D" uid="uid://dpwotwf1wq14f" path="res://Assets/Photos/Black_Crayon.png" id="4_o45ce"]
+[ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_r0eaj"]
+
+[node name="Page_5" type="Control" unique_id=1358197737]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 300.0
+offset_bottom = 400.0
+mouse_filter = 1
+script = ExtResource("1_3tvdj")
+
+[node name="Page" type="TextureRect" parent="." unique_id=1124862306]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_fdca1")
+expand_mode = 1
+
+[node name="Textbook_ring" type="TextureRect" parent="." unique_id=1351990875]
+layout_mode = 1
+offset_left = 55.0
+offset_top = 15.000001
+offset_right = 2012.0
+offset_bottom = 1301.0
+scale = Vector2(0.09318014, 0.16346951)
+texture = ExtResource("3_xent3")
+expand_mode = 1
+script = ExtResource("4_r0eaj")
+dialogue_key = "textbook_ring"
+
+[node name="Eviction_Notice" type="TextureRect" parent="." unique_id=975299792]
+layout_mode = 1
+offset_left = 60.00003
+offset_top = 235.0
+offset_right = 3568.0
+offset_bottom = 2715.0
+scale = Vector2(0.049594488, 0.054856285)
+texture = ExtResource("4_o45ce")
+script = ExtResource("4_r0eaj")
+dialogue_key = "eviction_notice"

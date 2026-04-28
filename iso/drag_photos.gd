@@ -2,13 +2,24 @@ extends TextureRect
 var dragging: bool = false;
 var offset: Vector2 = Vector2.ZERO
 
+@export var dialogue_key: String = ""
+
 func scatter():
 	var max_x = 300.0 - size.x
 	var max_y = 400.0 - size.y
 	position = Vector2(randf_range(0, max_x), randf_range(0,max_y))
 
 func _gui_input(event):
-	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_RIGHT and event.pressed:
+		
+		if dialogue_key == "": return 
+		
+		dragging = false
+	
+		accept_event() 
+		
+		SignalBus.display_dialog.emit(dialogue_key)
+	elif event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
 		if event.pressed:
 			dragging = true
 			offset = get_viewport().get_mouse_position() - position

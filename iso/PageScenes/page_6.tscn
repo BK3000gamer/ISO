@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://dgqpicdg55qwx"]
+
+[ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_42g5o"]
+[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_eh0vv"]
+[ext_resource type="Texture2D" uid="uid://bdes2obarmrw6" path="res://Assets/Photos/TextBook.jpg" id="3_kthdl"]
+[ext_resource type="Texture2D" uid="uid://d0shjh6pc12sp" path="res://Assets/Photos/Clouded_Sunset.jpg" id="4_a330l"]
+[ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_egwtp"]
+
+[node name="Page_6" type="Control" unique_id=1358197737]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 300.0
+offset_bottom = 400.0
+mouse_filter = 1
+script = ExtResource("1_42g5o")
+
+[node name="Page" type="TextureRect" parent="." unique_id=1124862306]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_eh0vv")
+expand_mode = 1
+
+[node name="Social_Exit" type="TextureRect" parent="." unique_id=1351990875]
+layout_mode = 1
+offset_left = 55.0
+offset_top = 15.000001
+offset_right = 2012.0
+offset_bottom = 1301.0
+scale = Vector2(0.09318014, 0.16346951)
+texture = ExtResource("3_kthdl")
+expand_mode = 1
+script = ExtResource("4_egwtp")
+dialogue_key = "social_exit"
+
+[node name="Clouded_Sunset" type="TextureRect" parent="." unique_id=975299792]
+layout_mode = 1
+offset_left = 60.00003
+offset_top = 235.0
+offset_right = 3568.0
+offset_bottom = 2715.0
+scale = Vector2(0.049594488, 0.054856285)
+texture = ExtResource("4_a330l")
+script = ExtResource("4_egwtp")
+dialogue_key = "clouded_sunset"

@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://cng8cb4vamr74"]
+
+[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="1_3xcor"]
+[ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_c5c7x"]
+[ext_resource type="Texture2D" uid="uid://bc8exsd3lisax" path="res://Assets/Photos/Stitched_Toy.png" id="2_c5c7x"]
+[ext_resource type="Texture2D" uid="uid://dpwotwf1wq14f" path="res://Assets/Photos/Black_Crayon.png" id="3_yonv2"]
+[ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_rbaby"]
+
+[node name="Page_2" type="Control" unique_id=1358197737]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 300.0
+offset_bottom = 400.0
+mouse_filter = 1
+script = ExtResource("1_c5c7x")
+
+[node name="Page" type="TextureRect" parent="." unique_id=1124862306]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_3xcor")
+expand_mode = 1
+
+[node name="StitchedToy" type="TextureRect" parent="." unique_id=1351990875]
+layout_mode = 1
+offset_left = 64.0
+offset_top = 22.000002
+offset_right = 2021.0
+offset_bottom = 1308.0
+scale = Vector2(0.0902806, 0.10499399)
+texture = ExtResource("2_c5c7x")
+expand_mode = 1
+script = ExtResource("4_rbaby")
+dialogue_key = "stitched_toy"
+
+[node name="PerfectCard" type="TextureRect" parent="." unique_id=975299792]
+layout_mode = 1
+offset_left = 66.00001
+offset_top = 210.99998
+offset_right = 3574.0
+offset_bottom = 2691.0
+scale = Vector2(0.049594488, 0.054856285)
+texture = ExtResource("3_yonv2")
+script = ExtResource("4_rbaby")
+dialogue_key = "perfect_card"

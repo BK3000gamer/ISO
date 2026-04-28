@@ -1,0 +1,129 @@
+[gd_scene format=3 uid="uid://y1k88pjwi7w5"]
+
+[ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_wxdqk"]
+[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_jlupo"]
+[ext_resource type="Texture2D" uid="uid://dpwotwf1wq14f" path="res://Assets/Photos/Black_Crayon.png" id="3_8vm17"]
+[ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_atkbc"]
+[ext_resource type="Texture2D" uid="uid://bjioah3tsk4ry" path="res://Assets/Photos/Shattered_Vase.png" id="4_gj0ic"]
+[ext_resource type="Script" uid="uid://c64vuauhkcl4x" path="res://drag_photos.gd" id="5_c2sri"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_icfgc"]
+atlas = ExtResource("4_gj0ic")
+region = Rect2(0, 0, 594, 765)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rf3m1"]
+atlas = ExtResource("4_gj0ic")
+region = Rect2(594, 0, 595, 765)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ughl"]
+atlas = ExtResource("4_gj0ic")
+region = Rect2(594, 765, 595, 765)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wx8qf"]
+atlas = ExtResource("4_gj0ic")
+region = Rect2(0, 765, 594, 765)
+
+[node name="Page_3(Puzzle)" type="Control" unique_id=1358197737]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 300.0
+offset_bottom = 400.0
+scale = Vector2(1.0043706, 0.972973)
+mouse_filter = 1
+script = ExtResource("1_wxdqk")
+
+[node name="Page" type="TextureRect" parent="." unique_id=1124862306]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_jlupo")
+expand_mode = 1
+
+[node name="ScratchedTrophy" type="TextureRect" parent="." unique_id=110202312]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -224.33072
+offset_top = -198.55557
+offset_right = -184.33072
+offset_bottom = -158.55557
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(3.7566528, 3.7566528)
+texture = ExtResource("3_8vm17")
+expand_mode = 1
+script = ExtResource("4_atkbc")
+dialogue_key = "scratched_trophy"
+
+[node name="Piece1" type="TextureRect" parent="." unique_id=1351990875]
+layout_mode = 1
+offset_left = 36.838993
+offset_top = 40.083332
+offset_right = 76.83899
+offset_bottom = 80.08333
+scale = Vector2(1.6081103, 1.6081103)
+mouse_filter = 0
+texture = SubResource("AtlasTexture_icfgc")
+expand_mode = 1
+script = ExtResource("5_c2sri")
+dialogue_key = "shattered_vase"
+
+[node name="Piece2" type="TextureRect" parent="." unique_id=975299792]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -116.800705
+offset_top = 29.805553
+offset_right = -76.800705
+offset_bottom = 69.80556
+grow_horizontal = 0
+scale = Vector2(1.6081103, 1.6081103)
+mouse_filter = 0
+texture = SubResource("AtlasTexture_rf3m1")
+expand_mode = 1
+script = ExtResource("5_c2sri")
+dialogue_key = "shattered_vase"
+
+[node name="Piece3" type="TextureRect" parent="." unique_id=732991388]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 186.18625
+offset_top = -232.47223
+offset_right = 226.18625
+offset_bottom = -192.47223
+grow_vertical = 0
+scale = Vector2(1.6081103, 1.6081103)
+mouse_filter = 0
+texture = SubResource("AtlasTexture_6ughl")
+expand_mode = 1
+script = ExtResource("5_c2sri")
+dialogue_key = "shattered_vase"
+
+[node name="Piece4" type="TextureRect" parent="." unique_id=1726065116]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -222.33942
+offset_top = -268.44446
+offset_right = -182.33942
+offset_bottom = -228.44447
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(1.6081103, 1.6081103)
+mouse_filter = 0
+texture = SubResource("AtlasTexture_wx8qf")
+expand_mode = 1
+script = ExtResource("5_c2sri")
+dialogue_key = "shattered_vase"

@@ -19,6 +19,11 @@ config/icon="res://icon.svg"
 
 SignalBus="*uid://buj5vcsoh8b0l"
 
+[layer_names]
+
+2d_physics/layer_1="Book"
+2d_physics/layer_2="Dialogue"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

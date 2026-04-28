@@ -1,0 +1,129 @@
+[gd_scene format=3 uid="uid://cqkgvhpdafrge"]
+
+[ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_wukux"]
+[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_d1ag4"]
+[ext_resource type="Texture2D" uid="uid://dpwotwf1wq14f" path="res://Assets/Photos/Black_Crayon.png" id="3_3owb2"]
+[ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_d1ag4"]
+[ext_resource type="Texture2D" uid="uid://bxn3yq0rpa313" path="res://Assets/Photos/Rings.jpg" id="4_ickwb"]
+[ext_resource type="Script" uid="uid://c64vuauhkcl4x" path="res://drag_photos.gd" id="5_8mt48"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ehd8o"]
+atlas = ExtResource("4_ickwb")
+region = Rect2(0, 0, 2000, 2000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d3qj4"]
+atlas = ExtResource("4_ickwb")
+region = Rect2(2000, 0, 2000, 2000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cq6y1"]
+atlas = ExtResource("4_ickwb")
+region = Rect2(2000, 2000, 2000, 2000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y8fff"]
+atlas = ExtResource("4_ickwb")
+region = Rect2(0, 2000, 2000, 2000)
+
+[node name="Page_7(Puzzle)" type="Control" unique_id=1358197737]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 300.0
+offset_bottom = 400.0
+scale = Vector2(1.0043706, 0.972973)
+mouse_filter = 1
+script = ExtResource("1_wukux")
+
+[node name="Page" type="TextureRect" parent="." unique_id=1124862306]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_d1ag4")
+expand_mode = 1
+
+[node name="First_Paycheck" type="TextureRect" parent="." unique_id=110202312]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -224.33072
+offset_top = -198.55557
+offset_right = -184.33072
+offset_bottom = -158.55557
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(3.7566528, 3.7566528)
+texture = ExtResource("3_3owb2")
+expand_mode = 1
+script = ExtResource("4_d1ag4")
+dialogue_key = "expensive_excuse"
+
+[node name="Piece1" type="TextureRect" parent="." unique_id=1351990875]
+layout_mode = 1
+offset_left = 36.838993
+offset_top = 40.083332
+offset_right = 76.83899
+offset_bottom = 80.08333
+scale = Vector2(1.6081103, 1.6081103)
+mouse_filter = 0
+texture = SubResource("AtlasTexture_ehd8o")
+expand_mode = 1
+script = ExtResource("5_8mt48")
+dialogue_key = "unlocked_rings"
+
+[node name="Piece2" type="TextureRect" parent="." unique_id=975299792]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -116.800705
+offset_top = 30.833332
+offset_right = -76.800705
+offset_bottom = 70.833336
+grow_horizontal = 0
+scale = Vector2(1.6081103, 1.6081103)
+mouse_filter = 0
+texture = SubResource("AtlasTexture_d3qj4")
+expand_mode = 1
+script = ExtResource("5_8mt48")
+dialogue_key = "unlocked_rings"
+
+[node name="Piece3" type="TextureRect" parent="." unique_id=732991388]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 186.18625
+offset_top = -232.47223
+offset_right = 226.18625
+offset_bottom = -192.47223
+grow_vertical = 0
+scale = Vector2(1.6081103, 1.6081103)
+mouse_filter = 0
+texture = SubResource("AtlasTexture_cq6y1")
+expand_mode = 1
+script = ExtResource("5_8mt48")
+dialogue_key = "unlocked_rings"
+
+[node name="Piece4" type="TextureRect" parent="." unique_id=1726065116]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -222.33942
+offset_top = -268.44446
+offset_right = -182.33942
+offset_bottom = -228.44447
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(1.6081103, 1.6081103)
+mouse_filter = 0
+texture = SubResource("AtlasTexture_y8fff")
+expand_mode = 1
+script = ExtResource("5_8mt48")
+dialogue_key = "unlocked_rings"

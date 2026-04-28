@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="BookPage" format=3 uid="uid://3hcikwh3nel2"]
+
+[ext_resource type="Script" uid="uid://bd056nbfj2dlb" path="res://Book_Page.gd" id="1_t3chg"]
+[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="1_vhqks"]
+[ext_resource type="PackedScene" uid="uid://dvcnbk8w1xt4d" path="res://PageScenes/page_5.tscn" id="2_p7jee"]
+
+[resource]
+script = ExtResource("1_t3chg")
+page_type = 1
+photo_texture = ExtResource("1_vhqks")
+puzzle_scene = ExtResource("2_p7jee")
+metadata/_custom_type_script = "uid://bd056nbfj2dlb"

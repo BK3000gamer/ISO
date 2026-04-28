@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://db6kod2ebfgs"]
 
 [ext_resource type="Script" uid="uid://cmhr6tatnldvw" path="res://dialog_player.gd" id="1_moba2"]
+[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_knm3x"]
+[ext_resource type="FontFile" uid="uid://ccjtpqqxegr3f" path="res://font/Antiquarian.ttf" id="3_75bwt"]
 
 [sub_resource type="SystemFont" id="SystemFont_h2akf"]
 font_names = PackedStringArray("Montserrat")
@@ -13,20 +15,36 @@ font_size = 32
 [node name="Dialog Player" type="CanvasLayer" unique_id=1768616142]
 process_mode = 3
 script = ExtResource("1_moba2")
+scene_text_file = "res://dialogue.json"
 
-[node name="Text Label" type="Label" parent="." unique_id=477774928]
-anchors_preset = -1
-anchor_left = 0.5
-anchor_top = 0.925
-anchor_right = 0.5
-anchor_bottom = 0.925
-offset_left = -864.0
-offset_top = -169.0
-offset_right = 864.0
-offset_bottom = 81.0
+[node name="Background" type="NinePatchRect" parent="." unique_id=2089800767]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -103.0
+offset_bottom = -103.0
 grow_horizontal = 2
 grow_vertical = 0
-pivot_offset = Vector2(864, 0)
+texture = ExtResource("2_knm3x")
+
+[node name="MarginContainer" type="MarginContainer" parent="Background" unique_id=1486153224]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Text Label" type="Label" parent="Background/MarginContainer" unique_id=477774928]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_75bwt")
+theme_override_font_sizes/font_size = 12
 label_settings = SubResource("LabelSettings_8mldl")
 horizontal_alignment = 1
 vertical_alignment = 1
