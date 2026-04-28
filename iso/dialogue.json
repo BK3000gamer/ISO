@@ -1,0 +1,115 @@
+{
+  "early_childhood": [
+    {
+      "dialogue_name": "birthday_cake",
+      "photo_description": "Child me looking at a cake",
+      "dialogue": "Mama's homemade blueberry jam cake for every birthday of mine. I didn’t know the sweetness was a distraction."
+    },
+    {
+      "dialogue_name": "black_crayon",
+      "photo_description": "A drawing with black scribbles",
+      "dialogue": "Some things were easier to fix with a black crayon than a real conversation."
+    },
+    {
+      "dialogue_name": "stitched_toy",
+      "photo_description": "Stuffed animal with stitches",
+      "dialogue": "Hold on, buddy. We’ll just keep sewing the pieces back together like always."
+    },
+    {
+      "dialogue_name": "perfect_card",
+      "photo_description": "A card with one or two tear-drop stains",
+      "dialogue": "I wrote it perfectly. I thought if the letters didn't shake, the house wouldn't either. How naïve."
+    }
+  ],
+  "teens": [
+    {
+      "dialogue_name": "shattered_vase",
+      "photo_description": "Broken ceramic shards",
+      "dialogue": "The sound stayed in the walls long after the ceramic shards were quickly swept away."
+    },
+    {
+      "dialogue_name": "scratched_trophy",
+      "photo_description": "Scratched participation trophy",
+      "dialogue": "If I wasn't the best to anyone, I was invisible. This was when I decided to be someone."
+    },
+    {
+      "dialogue_name": "deleted_draft",
+      "photo_description": "Scribbled-out love letter",
+      "dialogue": "My first heartbreak. When I realised love was just a draft you could delete."
+    },
+    {
+      "dialogue_name": "peeling_barrier",
+      "photo_description": "A peeling 'Keep Out' sign",
+      "dialogue": "I wasn't really keeping anyone out. I was just making sure I had a place of my own to hide."
+    }
+  ],
+  "twenties": [
+    {
+      "dialogue_name": "textbook_ring",
+      "photo_description": "Textbook with coffee stain",
+      "dialogue": "The future could wait a little longer. I was too busy chasing the feeling of having one."
+    },
+    {
+      "dialogue_name": "eviction_notice",
+      "photo_description": "An eviction notice coaster",
+      "dialogue": "Art doesn't care about rent. Or so I told myself..."
+    },
+    {
+      "dialogue_name": "social_exit",
+      "photo_description": "Blurry bar photo",
+      "dialogue": "I was in the room… but I was already looking for the exit."
+    },
+    {
+      "dialogue_name": "clouded_sunset",
+      "photo_description": "Sunset through dirty glass",
+      "dialogue": "A beautiful view. I just didn't notice the grime on my own side of the glass."
+    }
+  ],
+  "thirties": [
+    {
+      "dialogue_name": "expensive_excuse",
+      "photo_description": "My first paycheck",
+      "dialogue": "Money didn't make me better. It just made my excuses even more expensive."
+    },
+    {
+      "dialogue_name": "unlocked_rings",
+      "photo_description": "Our leaning wedding rings",
+      "dialogue": "We were side-by-side for a time… but we weren't holding on like I hoped."
+    },
+    {
+      "dialogue_name": "status_watch",
+      "photo_description": "Those shitty debt notices",
+      "dialogue": "I needed the world to see my gold, so they wouldn't look at the papers."
+    },
+    {
+      "dialogue_name": "halfpacked_suitcase",
+      "photo_description": "My half-packed suitcase",
+      "dialogue": "Even when I stayed, I kept the door unlocked. Just in case."
+    }
+  ],
+  "forty": [
+    {
+      "dialogue_name": "piles_of_debt",
+      "photo_description": "My piles of debt",
+      "dialogue": "The math finally caught up to me. You can't borrow a life forever."
+    },
+    {
+      "dialogue_name": "alcohol_bottles",
+      "photo_description": "Alcohol bottles",
+      "dialogue": "I should really do something about that. Or maybe it’s too late?"
+    },
+    {
+      "dialogue_name": "cracked_screen",
+      "photo_description": "My cracked phone screen",
+      "dialogue": "The world was screaming at me. I’ve only forgotten how to answer."
+    },
+    {
+      "dialogue_name": "burnt_out_spark",
+      "photo_description": "A burnt out lightbulb",
+      "dialogue": "I used to be so afraid of the dark. Now, I’m just too tired to fix it."
+    }
+  ],
+  "end_game": {
+    "ending_dialogue": "I spent forty years learning how to leave. I’ve mastered the art of the exit, the scribbled-out name and the half-packed bag. But looking at all these pieces... for the first time, I think I’d rather see what happens if I stay. Even if it's broken. Even if the stitching is clumsy."
+  }
+}

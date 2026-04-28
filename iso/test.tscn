@@ -1,8 +1,12 @@
 [gd_scene format=3 uid="uid://60qio4won8bl"]
 
 [ext_resource type="PackedScene" uid="uid://cje7sw22dd5jx" path="res://book.tscn" id="1_37kl0"]
+[ext_resource type="PackedScene" uid="uid://db6kod2ebfgs" path="res://dialog_player.tscn" id="2_8uh7m"]
 
 [node name="test" type="Node2D" unique_id=238184420]
 
 [node name="BookManager" parent="." unique_id=2069778489 instance=ExtResource("1_37kl0")]
 position = Vector2(552, 433)
+
+[node name="Dialog Player" parent="." unique_id=1768616142 instance=ExtResource("2_8uh7m")]
+scene_text_file = "res://dialogue.json"
