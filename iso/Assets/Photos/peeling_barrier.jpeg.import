@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjioah3tsk4ry"
-path="res://.godot/imported/Shattered_Vase.png-98277179708212526f11e314f110a2ee.ctex"
+uid="uid://k3yct7iqo0pk"
+path="res://.godot/imported/peeling_barrier.jpeg-a6913e5ec33aa9cfd0a549ab5d323475.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Photos/Shattered_Vase.png"
-dest_files=["res://.godot/imported/Shattered_Vase.png-98277179708212526f11e314f110a2ee.ctex"]
+source_file="res://Assets/Photos/peeling_barrier.jpeg"
+dest_files=["res://.godot/imported/peeling_barrier.jpeg-a6913e5ec33aa9cfd0a549ab5d323475.ctex"]
 
 [params]
 

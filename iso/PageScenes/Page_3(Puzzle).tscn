@@ -2,25 +2,25 @@
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_wxdqk"]
 [ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_jlupo"]
-[ext_resource type="Texture2D" uid="uid://dpwotwf1wq14f" path="res://Assets/Photos/Black_Crayon.png" id="3_8vm17"]
+[ext_resource type="Texture2D" uid="uid://b4xivphc20o5h" path="res://Assets/Photos/scratched_trophy.jpeg" id="3_atkbc"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_atkbc"]
-[ext_resource type="Texture2D" uid="uid://bjioah3tsk4ry" path="res://Assets/Photos/Shattered_Vase.png" id="4_gj0ic"]
+[ext_resource type="Texture2D" uid="uid://cfboyd8lb13w2" path="res://Assets/Photos/shattered_vase.jpeg" id="5_6jlvg"]
 [ext_resource type="Script" uid="uid://c64vuauhkcl4x" path="res://drag_photos.gd" id="5_c2sri"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_icfgc"]
-atlas = ExtResource("4_gj0ic")
+atlas = ExtResource("5_6jlvg")
 region = Rect2(0, 0, 594, 765)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rf3m1"]
-atlas = ExtResource("4_gj0ic")
+atlas = ExtResource("5_6jlvg")
 region = Rect2(594, 0, 595, 765)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6ughl"]
-atlas = ExtResource("4_gj0ic")
+atlas = ExtResource("5_6jlvg")
 region = Rect2(594, 765, 595, 765)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wx8qf"]
-atlas = ExtResource("4_gj0ic")
+atlas = ExtResource("5_6jlvg")
 region = Rect2(0, 765, 594, 765)
 
 [node name="Page_3(Puzzle)" type="Control" unique_id=1358197737]
@@ -52,24 +52,24 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -191.47432
-offset_top = -117.361145
-offset_right = -151.47432
-offset_bottom = -77.361145
+offset_left = -259.1784
+offset_top = -156.41667
+offset_right = -219.1784
+offset_bottom = -116.41669
 grow_horizontal = 0
 grow_vertical = 0
-scale = Vector2(4.907795, 5.065429)
-texture = ExtResource("3_8vm17")
+scale = Vector2(7.9650173, 6.466357)
+texture = ExtResource("3_atkbc")
 expand_mode = 1
 script = ExtResource("4_atkbc")
 dialogue_key = "scratched_trophy"
 
 [node name="Piece1" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 36.838993
-offset_top = 40.083332
-offset_right = 96.83899
-offset_bottom = 100.08333
+offset_left = 85.62577
+offset_top = 29.805553
+offset_right = 145.62576
+offset_bottom = 89.80555
 scale = Vector2(1.6081103, 1.6081103)
 mouse_filter = 0
 texture = SubResource("AtlasTexture_icfgc")
@@ -99,10 +99,10 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 186.18625
-offset_top = -232.47223
-offset_right = 246.18625
-offset_bottom = -172.47223
+offset_left = 183.19931
+offset_top = -273.58334
+offset_right = 243.19931
+offset_bottom = -213.58334
 grow_vertical = 0
 scale = Vector2(1.6081103, 1.6081103)
 mouse_filter = 0
@@ -118,10 +118,10 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -222.33942
-offset_top = -268.44446
-offset_right = -162.33942
-offset_bottom = -208.44446
+offset_left = -214.37424
+offset_top = -273.58334
+offset_right = -154.37424
+offset_bottom = -213.58334
 grow_horizontal = 0
 grow_vertical = 0
 scale = Vector2(1.6081103, 1.6081103)

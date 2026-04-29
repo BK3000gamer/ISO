@@ -7,7 +7,7 @@
 [node name="test" type="Node2D" unique_id=238184420]
 
 [node name="BookManager" parent="." unique_id=2069778489 instance=ExtResource("1_37kl0")]
-position = Vector2(575, 520)
+position = Vector2(575, 545)
 
 [node name="Dialog Player" parent="." unique_id=1768616142 instance=ExtResource("2_8uh7m")]
 

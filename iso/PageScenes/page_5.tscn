@@ -3,8 +3,8 @@
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_3tvdj"]
 [ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_fdca1"]
 [ext_resource type="Texture2D" uid="uid://bdes2obarmrw6" path="res://Assets/Photos/TextBook.jpg" id="3_xent3"]
-[ext_resource type="Texture2D" uid="uid://dpwotwf1wq14f" path="res://Assets/Photos/Black_Crayon.png" id="4_o45ce"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_r0eaj"]
+[ext_resource type="Texture2D" uid="uid://bebahfe6jwdwo" path="res://Assets/Photos/eviction coaster.jpeg" id="5_r0eaj"]
 
 [node name="Page_5" type="Control" unique_id=1358197737]
 layout_mode = 3
@@ -28,11 +28,11 @@ expand_mode = 1
 
 [node name="Textbook_ring" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 83.0
-offset_top = 28.0
-offset_right = 2040.0
-offset_bottom = 1314.0
-scale = Vector2(0.12159677, 0.19494501)
+offset_left = 80.0
+offset_top = 26.0
+offset_right = 2037.0
+offset_bottom = 1312.0
+scale = Vector2(0.1254596, 0.1733982)
 texture = ExtResource("3_xent3")
 expand_mode = 1
 script = ExtResource("4_r0eaj")
@@ -40,11 +40,11 @@ dialogue_key = "textbook_ring"
 
 [node name="Eviction_Notice" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 98.0
-offset_top = 308.0
-offset_right = 3606.0
-offset_bottom = 2788.0
-scale = Vector2(0.058282573, 0.06818584)
-texture = ExtResource("4_o45ce")
+offset_left = 75.0
+offset_top = 267.00003
+offset_right = 3583.0
+offset_bottom = 2747.0
+scale = Vector2(0.07203596, 0.09331)
+texture = ExtResource("5_r0eaj")
 script = ExtResource("4_r0eaj")
 dialogue_key = "eviction_notice"

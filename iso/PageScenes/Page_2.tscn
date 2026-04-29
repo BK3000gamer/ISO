@@ -3,8 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="1_3xcor"]
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_c5c7x"]
 [ext_resource type="Texture2D" uid="uid://bc8exsd3lisax" path="res://Assets/Photos/Stitched_Toy.png" id="2_c5c7x"]
-[ext_resource type="Texture2D" uid="uid://dpwotwf1wq14f" path="res://Assets/Photos/Black_Crayon.png" id="3_yonv2"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_rbaby"]
+[ext_resource type="Texture2D" uid="uid://bsbt27bdkyi23" path="res://Assets/Photos/perfect_card.jpeg" id="5_rbaby"]
 
 [node name="Page_2" type="Control" unique_id=1358197737]
 layout_mode = 3
@@ -45,6 +45,6 @@ offset_top = 239.99998
 offset_right = 3580.0
 offset_bottom = 2720.0
 scale = Vector2(0.07681094, 0.10141324)
-texture = ExtResource("3_yonv2")
+texture = ExtResource("5_rbaby")
 script = ExtResource("4_rbaby")
 dialogue_key = "perfect_card"

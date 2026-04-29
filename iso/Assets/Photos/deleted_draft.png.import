@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6l7e624xeffh"
-path="res://.godot/imported/Birthday_Cake.png-78f6bbb2bb0019ede7bb05c4327e0051.ctex"
+uid="uid://njl1onbmetso"
+path="res://.godot/imported/deleted_draft.png-abf7d56a819ad426e29036ba0c664889.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Photos/Birthday_Cake.png"
-dest_files=["res://.godot/imported/Birthday_Cake.png-78f6bbb2bb0019ede7bb05c4327e0051.ctex"]
+source_file="res://Assets/Photos/deleted_draft.png"
+dest_files=["res://.godot/imported/deleted_draft.png-abf7d56a819ad426e29036ba0c664889.ctex"]
 
 [params]
 

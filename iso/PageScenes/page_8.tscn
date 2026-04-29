@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_2x8du"]
 [ext_resource type="Texture2D" uid="uid://bdes2obarmrw6" path="res://Assets/Photos/TextBook.jpg" id="3_r7y8c"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_2x8du"]
-[ext_resource type="Texture2D" uid="uid://d0shjh6pc12sp" path="res://Assets/Photos/Clouded_Sunset.jpg" id="4_s4u8w"]
+[ext_resource type="Texture2D" uid="uid://6ob4kl8m4kwo" path="res://Assets/Photos/half packed suitcase.jpeg" id="5_2x8du"]
 
 [node name="Page_8" type="Control" unique_id=1358197737]
 layout_mode = 3
@@ -28,11 +28,11 @@ expand_mode = 1
 
 [node name="Debt_Notice" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 80.0
-offset_top = 23.0
-offset_right = 2037.0
-offset_bottom = 1309.0
-scale = Vector2(0.12335491, 0.19774814)
+offset_left = 99.0
+offset_top = 31.0
+offset_right = 2056.0
+offset_bottom = 1317.0
+scale = Vector2(0.105816476, 0.13147876)
 texture = ExtResource("3_r7y8c")
 expand_mode = 1
 script = ExtResource("4_2x8du")
@@ -40,11 +40,11 @@ dialogue_key = "status_watch"
 
 [node name="HalfPacked_SuitCase" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 89.00001
-offset_top = 307.00003
-offset_right = 3597.0
-offset_bottom = 2807.0
-scale = Vector2(0.06362809, 0.074923076)
-texture = ExtResource("4_s4u8w")
+offset_left = 55.0
+offset_top = 232.0
+offset_right = 3563.0
+offset_bottom = 2863.0
+scale = Vector2(0.08503486, 0.10046846)
+texture = ExtResource("5_2x8du")
 script = ExtResource("4_2x8du")
 dialogue_key = "halfpacked_suitcase"
