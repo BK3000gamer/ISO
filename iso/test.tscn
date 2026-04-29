@@ -6,7 +6,6 @@
 [node name="test" type="Node2D" unique_id=238184420]
 
 [node name="BookManager" parent="." unique_id=2069778489 instance=ExtResource("1_37kl0")]
-position = Vector2(552, 433)
+position = Vector2(552, 490)
 
 [node name="Dialog Player" parent="." unique_id=1768616142 instance=ExtResource("2_8uh7m")]
-scene_text_file = "res://dialogue.json"

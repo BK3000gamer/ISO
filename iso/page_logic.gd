@@ -5,6 +5,7 @@ var precise_move: float = 0.0
 signal flip_completed # This tells the manager if page is flipped
 #mouse dragging
 var dragging: bool = false
+var origin_right: bool = false
 @export var drag_sens: float = 1.15
 @export var flip_speed: float = 1.0
 @export var segment_n: int = 50
@@ -27,6 +28,8 @@ func _input(event):
 	#Mouse movement detection
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
 		dragging = event.pressed
+		if dragging:
+			origin_right =  move < 0.5
 		#goes to otherside if page is over 50% flipped
 		if not dragging:
 			precise_move = 1.0 if move > 0.5 else 0.0
@@ -42,16 +45,23 @@ func generate_page_mesh():
 	var clamped_end = clamp((move - 0.5) * 2.0, 0.0, 1.0)
 
 	# pow is the twerp equivalent
-	var _to_middle: float = pow(clamped_middle, 5.0)
-	var _to_end: float = 1.0 - pow(1.0 - clamped_end, 5.0)
+	var _to_middle: float = pow(clamped_middle, 4.0)
+	var _to_end: float = 1.0 - pow(1.0 - clamped_end, 4.0)
 
 	var _start_dir: float = 0.0
 	var _start_bend: float = 0.0
 
-	var _mid_dir: float = 160.0
-	var _mid_bend: float = -180.0 / segment_n
+	var _mid_dir: float
+	var _mid_bend: float
+	
+	if origin_right:
+		_mid_dir = -20.0
+		_mid_bend = -140.0 / segment_n
+	else:
+		_mid_dir = -160.0
+		_mid_bend = 140.0 / segment_n
 
-	var _end_dir: float = 180.0
+	var _end_dir: float = -180.0
 	var _end_bend: float = 0.0
 	
 	#at least lerps the same 
