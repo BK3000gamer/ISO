@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_ik7y1"]
 [ext_resource type="Texture2D" uid="uid://bu2wu43n0rdfy" path="res://Assets/Pages.png" id="2_ik7y1"]
+[ext_resource type="FontFile" uid="uid://ccjtpqqxegr3f" path="res://font/Antiquarian.ttf" id="3_bc4ja"]
 
 [node name="Cover" type="Control" unique_id=1358197737]
 layout_mode = 3
@@ -21,3 +22,24 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_ik7y1")
 expand_mode = 1
+
+[node name="Label" type="Label" parent="." unique_id=148299329]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.0
+offset_top = -103.58334
+offset_right = 160.0
+offset_bottom = 103.58334
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_bc4ja")
+theme_override_font_sizes/font_size = 100
+text = "ISO
+"
+horizontal_alignment = 1
+vertical_alignment = 1

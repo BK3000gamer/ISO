@@ -7,6 +7,11 @@
 
 [node name="test" type="Node2D" unique_id=238184420]
 
+[node name="TextureRect" type="ColorRect" parent="." unique_id=843208653]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.3320166, 0.19124278, 0.08607397, 1)
+
 [node name="MeshInstance2D" parent="." unique_id=77083204 instance=ExtResource("4_ppyta")]
 position = Vector2(989, 41.000004)
 scale = Vector2(1.05, 1.05)
