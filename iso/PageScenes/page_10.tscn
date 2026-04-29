@@ -26,12 +26,12 @@ expand_mode = 1
 
 [node name="Cracked_Screen" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 218.0
-offset_top = 83.99999
-offset_right = 3218.0
-offset_bottom = 4084.0
+offset_left = 199.0
+offset_top = 103.0
+offset_right = 3199.0
+offset_bottom = 4103.0
 rotation = -0.23210557
-scale = Vector2(0.08, 0.124)
+scale = Vector2(0.1, 0.1)
 texture = ExtResource("3_gtlyu")
 expand_mode = 1
 stretch_mode = 5
@@ -40,12 +40,12 @@ dialogue_key = "cracked_screen"
 
 [node name="Burnt_Out_Spark" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 144.0
-offset_top = 431.99997
-offset_right = 4144.0
-offset_bottom = 4432.0
+offset_left = 120.0
+offset_top = 418.99997
+offset_right = 4120.0
+offset_bottom = 4419.0
 rotation = 0.26086146
-scale = Vector2(0.06338149, 0.07684577)
+scale = Vector2(0.076846, 0.076846)
 texture = ExtResource("5_vcnw1")
 expand_mode = 1
 stretch_mode = 5

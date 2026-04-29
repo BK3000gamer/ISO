@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_u831t"]
 [ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_2de0i"]
+[ext_resource type="Texture2D" uid="uid://bs040n58d3m3i" path="res://Assets/Photos/Illustration13.jpg" id="3_2de0i"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_2de0i"]
 [ext_resource type="Texture2D" uid="uid://uwqmu267tr6i" path="res://Assets/Photos/Bottles.jpg" id="4_315pm"]
 
@@ -25,11 +26,12 @@ expand_mode = 1
 
 [node name="Piles_of_debt" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 64.0
-offset_top = 19.0
-offset_right = 2021.0
-offset_bottom = 1305.0
-scale = Vector2(0.12907797, 0.2136022)
+offset_left = 98.0
+offset_top = 74.0
+offset_right = 3870.6597
+offset_bottom = 2553.1213
+scale = Vector2(0.129078, 0.129078)
+texture = ExtResource("3_2de0i")
 expand_mode = 1
 stretch_mode = 5
 script = ExtResource("4_2de0i")
@@ -42,7 +44,7 @@ offset_top = 435.0
 offset_right = 3945.0
 offset_bottom = 2595.0
 rotation = 0.0523498
-scale = Vector2(0.12, 0.139)
+scale = Vector2(0.12, 0.12)
 texture = ExtResource("4_315pm")
 script = ExtResource("4_2de0i")
 dialogue_key = "alcohol_bottles"

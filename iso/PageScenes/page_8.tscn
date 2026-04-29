@@ -31,7 +31,7 @@ offset_top = 23.999998
 offset_right = 5249.0
 offset_bottom = 7040.0
 rotation = 0.17096652
-scale = Vector2(0.033, 0.04)
+scale = Vector2(0.04, 0.04)
 texture = ExtResource("3_2x8du")
 expand_mode = 1
 stretch_mode = 5
@@ -40,12 +40,12 @@ dialogue_key = "status_watch"
 
 [node name="HalfPacked_SuitCase" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 66.0
-offset_top = 319.00003
-offset_right = 3573.0
-offset_bottom = 2950.0
+offset_left = 72.99999
+offset_top = 342.0
+offset_right = 3580.0
+offset_bottom = 2973.0
 rotation = 0.04834336
-scale = Vector2(0.15, 0.177)
+scale = Vector2(0.15, 0.15)
 texture = ExtResource("5_2x8du")
 expand_mode = 1
 stretch_mode = 5

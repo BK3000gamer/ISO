@@ -27,12 +27,11 @@ expand_mode = 1
 
 [node name="BirthdayCake" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 61.0
-offset_top = 33.0
-offset_right = 550.0
-offset_bottom = 400.0
+offset_left = 72.00001
+offset_top = 61.000008
+offset_right = 561.0
+offset_bottom = 428.0
 rotation = -0.03198331
-scale = Vector2(1, 1.008)
 texture = ExtResource("3_uku51")
 expand_mode = 1
 stretch_mode = 5
@@ -41,12 +40,11 @@ dialogue_key = "birthday_cake"
 
 [node name="BlackCrayon" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 100.0
-offset_top = 363.00003
-offset_right = 547.5
-offset_bottom = 673.0
+offset_left = 94.99999
+offset_top = 445.99997
+offset_right = 542.5
+offset_bottom = 756.0
 rotation = 0.030951766
-scale = Vector2(1, 1.398)
 texture = ExtResource("3_11f8q")
 expand_mode = 1
 stretch_mode = 5

@@ -28,11 +28,10 @@ expand_mode = 1
 
 [node name="Deleted_Draft" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 61.0
-offset_top = -105.0
-offset_right = 673.0
-offset_bottom = 507.0
-scale = Vector2(0.79, 1)
+offset_left = -1.0
+offset_top = -109.0
+offset_right = 611.0
+offset_bottom = 503.0
 texture = ExtResource("3_bni4w")
 expand_mode = 1
 stretch_mode = 5
@@ -42,10 +41,9 @@ dialogue_key = "deleted_draft"
 [node name="Peeling_Barrier" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
 offset_left = 108.0
-offset_top = 412.00003
+offset_top = 447.0
 offset_right = 546.375
-offset_bottom = 740.875
-scale = Vector2(1, 1.121)
+offset_bottom = 775.875
 texture = ExtResource("5_qtxmt")
 expand_mode = 1
 stretch_mode = 5
