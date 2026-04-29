@@ -2,10 +2,29 @@
 
 [ext_resource type="PackedScene" uid="uid://cje7sw22dd5jx" path="res://book.tscn" id="1_37kl0"]
 [ext_resource type="PackedScene" uid="uid://db6kod2ebfgs" path="res://dialog_player.tscn" id="2_8uh7m"]
+[ext_resource type="FontFile" uid="uid://ccjtpqqxegr3f" path="res://font/Antiquarian.ttf" id="3_6uqi0"]
 
 [node name="test" type="Node2D" unique_id=238184420]
 
 [node name="BookManager" parent="." unique_id=2069778489 instance=ExtResource("1_37kl0")]
-position = Vector2(552, 490)
+position = Vector2(575, 520)
 
 [node name="Dialog Player" parent="." unique_id=1768616142 instance=ExtResource("2_8uh7m")]
+
+[node name="ControlsHUD" type="CanvasLayer" parent="." unique_id=786152437]
+process_mode = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="ControlsHUD" unique_id=1984249668]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(1.1894217, 1.6583065)
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 15
+
+[node name="Label" type="Label" parent="ControlsHUD/MarginContainer" unique_id=1424177367]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_6uqi0")
+theme_override_font_sizes/font_size = 16
+text = "Left Click : Drag / Turn
+Right Click : Interact"

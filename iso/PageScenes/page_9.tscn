@@ -19,6 +19,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_right = 100.0
+offset_bottom = 120.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_2de0i")
@@ -26,11 +28,11 @@ expand_mode = 1
 
 [node name="Piles_of_debt" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 55.0
-offset_top = 15.000001
-offset_right = 2012.0
-offset_bottom = 1301.0
-scale = Vector2(0.09318014, 0.16346951)
+offset_left = 64.0
+offset_top = 19.0
+offset_right = 2021.0
+offset_bottom = 1305.0
+scale = Vector2(0.12907797, 0.2136022)
 texture = ExtResource("3_b0seg")
 expand_mode = 1
 script = ExtResource("4_2de0i")
@@ -38,11 +40,11 @@ dialogue_key = "piles_of_debt"
 
 [node name="Alcohol_Bottles" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 60.00003
-offset_top = 235.0
-offset_right = 3568.0
-offset_bottom = 2715.0
-scale = Vector2(0.049594488, 0.054856285)
+offset_left = 78.0
+offset_top = 311.0
+offset_right = 3918.0
+offset_bottom = 2791.0
+scale = Vector2(0.06195561, 0.07236682)
 texture = ExtResource("4_315pm")
 script = ExtResource("4_2de0i")
 dialogue_key = "alcohol_bottles"

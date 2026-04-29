@@ -19,6 +19,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_right = 100.0
+offset_bottom = 120.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_2x8du")
@@ -26,11 +28,11 @@ expand_mode = 1
 
 [node name="Debt_Notice" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 55.0
-offset_top = 15.000001
-offset_right = 2012.0
-offset_bottom = 1301.0
-scale = Vector2(0.09318014, 0.16346951)
+offset_left = 80.0
+offset_top = 23.0
+offset_right = 2037.0
+offset_bottom = 1309.0
+scale = Vector2(0.12335491, 0.19774814)
 texture = ExtResource("3_r7y8c")
 expand_mode = 1
 script = ExtResource("4_2x8du")
@@ -38,11 +40,11 @@ dialogue_key = "status_watch"
 
 [node name="HalfPacked_SuitCase" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 60.00003
-offset_top = 235.0
-offset_right = 3568.0
-offset_bottom = 2715.0
-scale = Vector2(0.049594488, 0.054856285)
+offset_left = 89.00001
+offset_top = 307.00003
+offset_right = 3597.0
+offset_bottom = 2807.0
+scale = Vector2(0.06362809, 0.074923076)
 texture = ExtResource("4_s4u8w")
 script = ExtResource("4_2x8du")
 dialogue_key = "halfpacked_suitcase"

@@ -11,8 +11,8 @@ var origin_right: bool = false
 @export var drag_sens: float = 1.15
 @export var flip_speed: float = 1.0
 @export var segment_n: int = 50
-@export var page_width: float = 200.0
-@export var page_height: float = 300.0
+@export var page_width: float = 400.0
+@export var page_height: float = 520.0
 @export var texture_front: Texture2D
 @export var texture_back: Texture2D
 

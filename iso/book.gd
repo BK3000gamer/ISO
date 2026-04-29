@@ -68,13 +68,13 @@ container: Control, is_left: bool):
 		#Switching to Subviewport for seamless transistions
 		var sv_container = SubViewportContainer.new()
 		sv_container.name = "Puzzle_Screen"
-		sv_container.size = Vector2(300, 400)
+		sv_container.size = Vector2(400, 520)
 		sv_container.mouse_filter = Control.MOUSE_FILTER_STOP
 		container.add_child(sv_container)
 		
 		var sub_viewport = SubViewport.new()
 		#SIZE MATTERS!!!!
-		sub_viewport.size = Vector2(300,400)
+		sub_viewport.size = Vector2(400,520)
 		sub_viewport.transparent_bg = true
 		sub_viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 		sv_container.add_child(sub_viewport)
@@ -126,13 +126,13 @@ func start_flip_forward():
 		var page_data = book_pages[next_left_index]
 		if page_data.page_type == 1 and page_data.puzzle_scene != null:
 			hidden_studio = SubViewportContainer.new()
-			hidden_studio.size = Vector2(300, 400)
+			hidden_studio.size = Vector2(400, 520)
 			hidden_studio.position = Vector2(-9000, -9000)
 			hidden_studio.visible = false 
 			add_child(hidden_studio) 
 			
 			var sub_viewport = SubViewport.new()
-			sub_viewport.size = Vector2(300, 400)
+			sub_viewport.size = Vector2(400, 520)
 			sub_viewport.transparent_bg = true
 			sub_viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 			hidden_studio.add_child(sub_viewport)
@@ -193,7 +193,7 @@ func start_flip_backward():
 		var page_data = book_pages[next_right_index]
 		if page_data.page_type == 1 and page_data.puzzle_scene != null:
 			hidden_studio = SubViewportContainer.new()
-			hidden_studio.size = Vector2(300, 400)
+			hidden_studio.size = Vector2(400, 520)
 			
 			#shoving it offscreen so it doesnt show but still updates the pages live
 			#I've basically created a broadcast of the pages that screenshots onto the flipper logic
@@ -202,7 +202,7 @@ func start_flip_backward():
 			add_child(hidden_studio)
 			
 			var sub_viewport = SubViewport.new()
-			sub_viewport.size = Vector2(300, 400)
+			sub_viewport.size = Vector2(400, 520)
 			sub_viewport.transparent_bg = true
 			sub_viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 			hidden_studio.add_child(sub_viewport)

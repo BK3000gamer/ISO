@@ -1,16 +1,7 @@
 [gd_scene format=3 uid="uid://db6kod2ebfgs"]
 
 [ext_resource type="Script" uid="uid://cmhr6tatnldvw" path="res://dialog_player.gd" id="1_moba2"]
-[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_knm3x"]
-[ext_resource type="FontFile" uid="uid://ccjtpqqxegr3f" path="res://font/Antiquarian.ttf" id="3_75bwt"]
-
-[sub_resource type="SystemFont" id="SystemFont_h2akf"]
-font_names = PackedStringArray("Montserrat")
-subpixel_positioning = 0
-
-[sub_resource type="LabelSettings" id="LabelSettings_8mldl"]
-font = SubResource("SystemFont_h2akf")
-font_size = 32
+[ext_resource type="Theme" uid="uid://ccd2equaobob0" path="res://Dialogue_Theme.tres" id="3_75bwt"]
 
 [node name="Dialog Player" type="CanvasLayer" unique_id=1768616142]
 process_mode = 3
@@ -22,11 +13,11 @@ anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -103.0
-offset_bottom = -103.0
+offset_top = -70.0
+offset_bottom = -70.0
 grow_horizontal = 2
 grow_vertical = 0
-texture = ExtResource("2_knm3x")
+scale = Vector2(1, 2.1200001)
 
 [node name="MarginContainer" type="MarginContainer" parent="Background" unique_id=1486153224]
 layout_mode = 1
@@ -35,17 +26,21 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/margin_left = 10
-theme_override_constants/margin_top = 10
-theme_override_constants/margin_right = 10
-theme_override_constants/margin_bottom = 10
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 40
 
-[node name="Text Label" type="Label" parent="Background/MarginContainer" unique_id=477774928]
-custom_minimum_size = Vector2(10, 10)
+[node name="Text Label" type="RichTextLabel" parent="Background/MarginContainer" unique_id=865876948]
+custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_75bwt")
-theme_override_font_sizes/font_size = 12
-label_settings = SubResource("LabelSettings_8mldl")
+size_flags_vertical = 4
+theme = ExtResource("3_75bwt")
+theme_override_colors/default_color = Color(0.95686275, 0.93333334, 0.8666667, 1)
+theme_override_constants/line_separation = 8
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/normal_font_size = 25
+bbcode_enabled = true
+autowrap_mode = 2
 horizontal_alignment = 1
 vertical_alignment = 1
-autowrap_mode = 2

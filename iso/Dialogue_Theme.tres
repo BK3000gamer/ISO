@@ -1,0 +1,7 @@
+[gd_resource type="Theme" format=3 uid="uid://ccd2equaobob0"]
+
+[ext_resource type="FontFile" uid="uid://ccjtpqqxegr3f" path="res://font/Antiquarian.ttf" id="1_l0g78"]
+
+[resource]
+default_font = ExtResource("1_l0g78")
+default_font_size = 0

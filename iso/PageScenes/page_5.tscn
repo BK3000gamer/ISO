@@ -19,6 +19,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_right = 100.0
+offset_bottom = 120.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_fdca1")
@@ -26,11 +28,11 @@ expand_mode = 1
 
 [node name="Textbook_ring" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 55.0
-offset_top = 15.000001
-offset_right = 2012.0
-offset_bottom = 1301.0
-scale = Vector2(0.09318014, 0.16346951)
+offset_left = 83.0
+offset_top = 28.0
+offset_right = 2040.0
+offset_bottom = 1314.0
+scale = Vector2(0.12159677, 0.19494501)
 texture = ExtResource("3_xent3")
 expand_mode = 1
 script = ExtResource("4_r0eaj")
@@ -38,11 +40,11 @@ dialogue_key = "textbook_ring"
 
 [node name="Eviction_Notice" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 60.00003
-offset_top = 235.0
-offset_right = 3568.0
-offset_bottom = 2715.0
-scale = Vector2(0.049594488, 0.054856285)
+offset_left = 98.0
+offset_top = 308.0
+offset_right = 3606.0
+offset_bottom = 2788.0
+scale = Vector2(0.058282573, 0.06818584)
 texture = ExtResource("4_o45ce")
 script = ExtResource("4_r0eaj")
 dialogue_key = "eviction_notice"
