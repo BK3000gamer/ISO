@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://4qvxujev6aw1"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_atan8"]
-[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_uku51"]
+[ext_resource type="Texture2D" uid="uid://bu2wu43n0rdfy" path="res://Assets/Pages.png" id="2_uku51"]
 [ext_resource type="Texture2D" uid="uid://dpwotwf1wq14f" path="res://Assets/Photos/Black_Crayon.png" id="3_11f8q"]
 [ext_resource type="Texture2D" uid="uid://dpamtp6d3cs32" path="res://Assets/Photos/birthday_cake.jpeg" id="3_uku51"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_uku51"]
@@ -41,10 +41,10 @@ dialogue_key = "birthday_cake"
 
 [node name="BlackCrayon" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 226.0
-offset_top = 355.00003
-offset_right = 673.5
-offset_bottom = 665.0
+offset_left = 173.00003
+offset_top = 432.0
+offset_right = 620.5
+offset_bottom = 742.0
 rotation = 0.09929045
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("3_11f8q")

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dy6g8i87pe1s"]
 
-[ext_resource type="Texture2D" uid="uid://dx6wveycb0wbw" path="res://BookPageResource/BookTexture.tres" id="1_14fqo"]
+[ext_resource type="Texture2D" uid="uid://b0l50xurf3nwq" path="res://Assets/Cover.png" id="1_14fqo"]
 
 [node name="MeshInstance2D" type="MeshInstance2D" unique_id=77083204]
 
@@ -12,7 +12,6 @@ offset_right = 640.0
 offset_bottom = 840.0
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(1.1, 1.1)
 mouse_filter = 2
 texture = ExtResource("1_14fqo")
 expand_mode = 1
@@ -21,12 +20,10 @@ expand_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -700.0
-offset_right = -60.0
+offset_left = -640.0
 offset_bottom = 840.0
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(1.1, 1.1)
 mouse_filter = 2
 texture = ExtResource("1_14fqo")
 expand_mode = 1

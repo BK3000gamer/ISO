@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://y1k88pjwi7w5"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_wxdqk"]
-[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_atkbc"]
+[ext_resource type="Texture2D" uid="uid://bu2wu43n0rdfy" path="res://Assets/Pages.png" id="2_atkbc"]
 [ext_resource type="Texture2D" uid="uid://b4xivphc20o5h" path="res://Assets/Photos/scratched_trophy.jpeg" id="3_atkbc"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_atkbc"]
 [ext_resource type="Texture2D" uid="uid://cfboyd8lb13w2" path="res://Assets/Photos/shattered_vase.jpeg" id="5_6jlvg"]
@@ -49,10 +49,10 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -485.0
-offset_top = -544.0
-offset_right = 1564.0
-offset_bottom = 1049.0
+offset_left = -512.0
+offset_top = -470.99997
+offset_right = 1537.0
+offset_bottom = 1122.0
 grow_horizontal = 0
 grow_vertical = 0
 rotation = 0.043745246

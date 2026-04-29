@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="BookPage" format=3 uid="uid://3hcikwh3nel2"]
 
 [ext_resource type="Script" uid="uid://bd056nbfj2dlb" path="res://Book_Page.gd" id="1_t3chg"]
-[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="1_vhqks"]
+[ext_resource type="Texture2D" uid="uid://bu2wu43n0rdfy" path="res://Assets/Pages.png" id="1_vhqks"]
 [ext_resource type="PackedScene" uid="uid://dvcnbk8w1xt4d" path="res://PageScenes/page_5.tscn" id="2_p7jee"]
 
 [resource]

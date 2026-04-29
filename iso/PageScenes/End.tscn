@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://kdsywtppnj81"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_1ri3l"]
-[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_i0vth"]
+[ext_resource type="Texture2D" uid="uid://bu2wu43n0rdfy" path="res://Assets/Pages.png" id="2_1ri3l"]
+[ext_resource type="FontFile" uid="uid://ccjtpqqxegr3f" path="res://font/Antiquarian.ttf" id="3_i0vth"]
+[ext_resource type="Texture2D" uid="uid://cmemq7wlawb3j" path="res://Assets/Photos/Moon_Horizon.jpg" id="4_brvhv"]
 
 [node name="End" type="Control" unique_id=1358197737]
 layout_mode = 3
@@ -19,6 +21,32 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_i0vth")
+texture = ExtResource("2_1ri3l")
 expand_mode = 1
 flip_h = true
+
+[node name="Label" type="Label" parent="." unique_id=501492755]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.0
+offset_top = -103.58334
+offset_right = 160.0
+offset_bottom = 103.58334
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_i0vth")
+theme_override_font_sizes/font_size = 100
+text = "The End
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MoonHorizon" type="Sprite2D" parent="." unique_id=488227184]
+position = Vector2(323, 581)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("4_brvhv")

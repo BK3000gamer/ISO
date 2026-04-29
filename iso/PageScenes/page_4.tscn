@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://84wp6xv5oomw"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_mnljn"]
-[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_bni4w"]
+[ext_resource type="Texture2D" uid="uid://bu2wu43n0rdfy" path="res://Assets/Pages.png" id="2_bni4w"]
 [ext_resource type="Texture2D" uid="uid://njl1onbmetso" path="res://Assets/Photos/deleted_draft.png" id="3_bni4w"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_bni4w"]
 [ext_resource type="Texture2D" uid="uid://k3yct7iqo0pk" path="res://Assets/Photos/peeling_barrier.jpeg" id="5_qtxmt"]
@@ -26,10 +26,10 @@ expand_mode = 1
 
 [node name="Deleted_Draft" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 76.0
-offset_top = -129.0
-offset_right = 688.0
-offset_bottom = 483.0
+offset_left = 3.0
+offset_top = -95.99999
+offset_right = 615.0
+offset_bottom = 516.0
 scale = Vector2(1.004068, 0.9815148)
 texture = ExtResource("3_bni4w")
 expand_mode = 1
@@ -39,10 +39,10 @@ dialogue_key = "deleted_draft"
 
 [node name="Peeling_Barrier" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 53.000008
-offset_top = 284.0
-offset_right = 491.375
-offset_bottom = 612.875
+offset_left = 115.0
+offset_top = 394.0
+offset_right = 553.375
+offset_bottom = 722.875
 rotation = 0.13331282
 texture = ExtResource("5_qtxmt")
 expand_mode = 1

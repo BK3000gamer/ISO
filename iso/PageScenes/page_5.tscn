@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://dvcnbk8w1xt4d"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_3tvdj"]
+[ext_resource type="Texture2D" uid="uid://bu2wu43n0rdfy" path="res://Assets/Pages.png" id="2_r0eaj"]
 [ext_resource type="Texture2D" uid="uid://bdes2obarmrw6" path="res://Assets/Photos/TextBook.jpg" id="3_xent3"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_r0eaj"]
 [ext_resource type="Texture2D" uid="uid://bebahfe6jwdwo" path="res://Assets/Photos/eviction coaster.jpeg" id="5_ol8a4"]
-[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="5_r0eaj"]
 
 [node name="Page_5" type="Control" unique_id=1358197737]
 layout_mode = 3
@@ -21,16 +21,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("5_r0eaj")
+texture = ExtResource("2_r0eaj")
 expand_mode = 1
 flip_h = true
 
 [node name="Textbook_ring" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 160.0
-offset_top = 53.0
-offset_right = 3643.0
-offset_bottom = 4286.0
+offset_left = 183.0
+offset_top = 41.999996
+offset_right = 3666.0
+offset_bottom = 4275.0
 scale = Vector2(0.09, 0.09)
 texture = ExtResource("3_xent3")
 expand_mode = 1
@@ -40,10 +40,10 @@ dialogue_key = "textbook_ring"
 
 [node name="Eviction_Notice" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 220.0
-offset_top = 309.0
-offset_right = 2581.0
-offset_bottom = 2079.0
+offset_left = 152.00002
+offset_top = 389.99997
+offset_right = 2513.0
+offset_bottom = 2160.0
 rotation = 0.18056856
 scale = Vector2(0.15, 0.15)
 texture = ExtResource("5_ol8a4")

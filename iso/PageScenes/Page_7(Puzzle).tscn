@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cqkgvhpdafrge"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_wukux"]
-[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_d1ag4"]
+[ext_resource type="Texture2D" uid="uid://bu2wu43n0rdfy" path="res://Assets/Pages.png" id="2_d1ag4"]
 [ext_resource type="Texture2D" uid="uid://be6m1tcf1rp4v" path="res://Assets/Photos/PayCheck.jpg" id="3_d1ag4"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_d1ag4"]
 [ext_resource type="Texture2D" uid="uid://bxn3yq0rpa313" path="res://Assets/Photos/Rings.jpg" id="4_ickwb"]
@@ -49,10 +49,10 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -576.0
-offset_top = -798.0
-offset_right = 3264.0
-offset_bottom = 1362.0
+offset_left = -506.0
+offset_top = -765.0
+offset_right = 3334.0
+offset_bottom = 1395.0
 grow_horizontal = 0
 grow_vertical = 0
 scale = Vector2(0.1, 0.1)
@@ -64,10 +64,10 @@ dialogue_key = "expensive_excuse"
 
 [node name="Piece1" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 179.21674
-offset_top = 296.0
-offset_right = 304.21674
-offset_bottom = 421.0
+offset_left = 182.0
+offset_top = 444.0
+offset_right = 307.0
+offset_bottom = 569.0
 mouse_filter = 0
 texture = SubResource("AtlasTexture_ehd8o")
 expand_mode = 1
@@ -80,10 +80,10 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -262.64923
-offset_top = 296.0
-offset_right = -137.64923
-offset_bottom = 421.0
+offset_left = -323.0
+offset_top = 444.0
+offset_right = -198.0
+offset_bottom = 569.0
 grow_horizontal = 0
 mouse_filter = 0
 texture = SubResource("AtlasTexture_d3qj4")
@@ -97,10 +97,10 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 379.34207
-offset_top = -343.58334
-offset_right = 504.34207
-offset_bottom = -218.58337
+offset_left = 314.0
+offset_top = -246.0
+offset_right = 439.0
+offset_bottom = -121.0
 grow_vertical = 0
 mouse_filter = 0
 texture = SubResource("AtlasTexture_cq6y1")
@@ -116,10 +116,10 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -458.792
-offset_top = -344.6111
-offset_right = -333.792
-offset_bottom = -219.61108
+offset_left = -469.0
+offset_top = -239.0
+offset_right = -344.0
+offset_bottom = -114.0
 grow_horizontal = 0
 grow_vertical = 0
 mouse_filter = 0
