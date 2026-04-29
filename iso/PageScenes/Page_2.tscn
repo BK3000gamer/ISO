@@ -9,8 +9,9 @@
 [node name="Page_2" type="Control" unique_id=1358197737]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 300.0
-offset_bottom = 400.0
+offset_top = 3.0
+offset_right = 640.0
+offset_bottom = 843.0
 mouse_filter = 1
 script = ExtResource("1_c5c7x")
 
@@ -19,8 +20,6 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 100.0
-offset_bottom = 120.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_3xcor")
@@ -28,23 +27,24 @@ expand_mode = 1
 
 [node name="StitchedToy" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 68.0
-offset_top = 2.0000076
-offset_right = 2025.0
-offset_bottom = 1288.0
-scale = Vector2(0.13794003, 0.17676723)
+offset_left = 104.0
+offset_top = -22.0
+offset_right = 2152.0
+offset_bottom = 2026.0
+rotation = -0.053660445
+scale = Vector2(0.20569772, 0.22244392)
 texture = ExtResource("2_c5c7x")
-expand_mode = 1
 script = ExtResource("4_rbaby")
 dialogue_key = "stitched_toy"
 
 [node name="PerfectCard" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 72.0
-offset_top = 239.99998
-offset_right = 3580.0
-offset_bottom = 2720.0
-scale = Vector2(0.07681094, 0.10141324)
+offset_left = 123.999985
+offset_top = 391.0
+offset_right = 1699.0
+offset_bottom = 1417.0
+rotation = 0.06384863
+scale = Vector2(0.25744116, 0.37963337)
 texture = ExtResource("5_rbaby")
 script = ExtResource("4_rbaby")
 dialogue_key = "perfect_card"

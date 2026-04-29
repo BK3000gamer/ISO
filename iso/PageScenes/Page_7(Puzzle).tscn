@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_wukux"]
 [ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_d1ag4"]
-[ext_resource type="Texture2D" uid="uid://dpwotwf1wq14f" path="res://Assets/Photos/Black_Crayon.png" id="3_3owb2"]
+[ext_resource type="Texture2D" uid="uid://be6m1tcf1rp4v" path="res://Assets/Photos/PayCheck.jpg" id="3_d1ag4"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_d1ag4"]
 [ext_resource type="Texture2D" uid="uid://bxn3yq0rpa313" path="res://Assets/Photos/Rings.jpg" id="4_ickwb"]
 [ext_resource type="Script" uid="uid://c64vuauhkcl4x" path="res://drag_photos.gd" id="5_8mt48"]
@@ -26,9 +26,8 @@ region = Rect2(0, 2000, 2000, 2000)
 [node name="Page_7(Puzzle)" type="Control" unique_id=1358197737]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 300.0
-offset_bottom = 400.0
-scale = Vector2(1.0043706, 0.972973)
+offset_right = 640.0
+offset_bottom = 840.0
 mouse_filter = 1
 script = ExtResource("1_wukux")
 
@@ -37,11 +36,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 100.0
-offset_bottom = 120.0
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(1, 1.0339155)
 texture = ExtResource("2_d1ag4")
 expand_mode = 1
 
@@ -52,28 +48,29 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -197.44821
-offset_top = -115.30557
-offset_right = -157.44821
-offset_bottom = -75.30557
+offset_left = -505.58743
+offset_top = -767.0278
+offset_right = 3334.4126
+offset_bottom = 1392.9722
 grow_horizontal = 0
 grow_vertical = 0
-scale = Vector2(5.1933947, 5.1440945)
-texture = ExtResource("3_3owb2")
+scale = Vector2(0.1, 0.099)
+texture = ExtResource("3_d1ag4")
 expand_mode = 1
+stretch_mode = 5
 script = ExtResource("4_d1ag4")
 dialogue_key = "expensive_excuse"
 
 [node name="Piece1" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 36.838993
-offset_top = 40.083332
-offset_right = 96.83899
-offset_bottom = 100.08333
-scale = Vector2(1.6081103, 1.6081103)
+offset_left = 179.21674
+offset_top = 296.0
+offset_right = 304.21674
+offset_bottom = 421.0
 mouse_filter = 0
 texture = SubResource("AtlasTexture_ehd8o")
 expand_mode = 1
+stretch_mode = 5
 script = ExtResource("5_8mt48")
 dialogue_key = "unlocked_rings"
 
@@ -82,15 +79,15 @@ layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -116.800705
-offset_top = 30.833332
-offset_right = -56.800705
-offset_bottom = 90.83333
+offset_left = -262.64923
+offset_top = 296.0
+offset_right = -137.64923
+offset_bottom = 421.0
 grow_horizontal = 0
-scale = Vector2(1.6081103, 1.6081103)
 mouse_filter = 0
 texture = SubResource("AtlasTexture_d3qj4")
 expand_mode = 1
+stretch_mode = 5
 script = ExtResource("5_8mt48")
 dialogue_key = "unlocked_rings"
 
@@ -99,15 +96,15 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 186.18625
-offset_top = -232.47223
-offset_right = 246.18625
-offset_bottom = -172.47223
+offset_left = 379.34207
+offset_top = -343.58334
+offset_right = 504.34207
+offset_bottom = -218.58337
 grow_vertical = 0
-scale = Vector2(1.6081103, 1.6081103)
 mouse_filter = 0
 texture = SubResource("AtlasTexture_cq6y1")
 expand_mode = 1
+stretch_mode = 5
 script = ExtResource("5_8mt48")
 dialogue_key = "unlocked_rings"
 
@@ -118,15 +115,15 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -222.33942
-offset_top = -268.44446
-offset_right = -162.33942
-offset_bottom = -208.44446
+offset_left = -458.792
+offset_top = -344.6111
+offset_right = -333.792
+offset_bottom = -219.61108
 grow_horizontal = 0
 grow_vertical = 0
-scale = Vector2(1.6081103, 1.6081103)
 mouse_filter = 0
 texture = SubResource("AtlasTexture_y8fff")
 expand_mode = 1
+stretch_mode = 5
 script = ExtResource("5_8mt48")
 dialogue_key = "unlocked_rings"

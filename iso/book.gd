@@ -5,6 +5,8 @@ var current_index: int = 0
 var flipping_forward: bool = true
 var hidden_studio: SubViewportContainer = null
 var prepare_flip: bool = false
+var page_w: float = 640.0
+var page_h: float = 840.0
 @onready var left_container = $Left_Page
 @onready var right_container = $Right_Page
 @onready var left_photo = $Left_Page/Left_Photo_Texture
@@ -68,13 +70,13 @@ container: Control, is_left: bool):
 		#Switching to Subviewport for seamless transistions
 		var sv_container = SubViewportContainer.new()
 		sv_container.name = "Puzzle_Screen"
-		sv_container.size = Vector2(400, 520)
+		sv_container.size = Vector2(page_w, page_h)
 		sv_container.mouse_filter = Control.MOUSE_FILTER_STOP
 		container.add_child(sv_container)
 		
 		var sub_viewport = SubViewport.new()
 		#SIZE MATTERS!!!!
-		sub_viewport.size = Vector2(400,520)
+		sub_viewport.size = Vector2(page_w,page_h)
 		sub_viewport.transparent_bg = true
 		sub_viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 		sv_container.add_child(sub_viewport)
@@ -126,13 +128,13 @@ func start_flip_forward():
 		var page_data = book_pages[next_left_index]
 		if page_data.page_type == 1 and page_data.puzzle_scene != null:
 			hidden_studio = SubViewportContainer.new()
-			hidden_studio.size = Vector2(400, 520)
+			hidden_studio.size = Vector2(page_w, page_h)
 			hidden_studio.position = Vector2(-9000, -9000)
 			hidden_studio.visible = false 
 			add_child(hidden_studio) 
 			
 			var sub_viewport = SubViewport.new()
-			sub_viewport.size = Vector2(400, 520)
+			sub_viewport.size = Vector2(page_w, page_h)
 			sub_viewport.transparent_bg = true
 			sub_viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 			hidden_studio.add_child(sub_viewport)
@@ -193,7 +195,7 @@ func start_flip_backward():
 		var page_data = book_pages[next_right_index]
 		if page_data.page_type == 1 and page_data.puzzle_scene != null:
 			hidden_studio = SubViewportContainer.new()
-			hidden_studio.size = Vector2(400, 520)
+			hidden_studio.size = Vector2(page_w, page_h)
 			
 			#shoving it offscreen so it doesnt show but still updates the pages live
 			#I've basically created a broadcast of the pages that screenshots onto the flipper logic
@@ -202,7 +204,7 @@ func start_flip_backward():
 			add_child(hidden_studio)
 			
 			var sub_viewport = SubViewport.new()
-			sub_viewport.size = Vector2(400, 520)
+			sub_viewport.size = Vector2(page_w, page_h)
 			sub_viewport.transparent_bg = true
 			sub_viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 			hidden_studio.add_child(sub_viewport)

@@ -9,8 +9,8 @@
 [node name="Page_4" type="Control" unique_id=1358197737]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 300.0
-offset_bottom = 400.0
+offset_right = 640.0
+offset_bottom = 840.0
 mouse_filter = 1
 script = ExtResource("1_mnljn")
 
@@ -20,8 +20,7 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 1.0
-offset_right = 101.0
-offset_bottom = 120.0
+offset_right = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_bni4w")
@@ -29,23 +28,26 @@ expand_mode = 1
 
 [node name="Deleted_Draft" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 41.0
-offset_top = 1.9999981
-offset_right = 1998.0
-offset_bottom = 1288.0
-scale = Vector2(0.15393324, 0.19464357)
+offset_left = 61.0
+offset_top = -105.0
+offset_right = 673.0
+offset_bottom = 507.0
+scale = Vector2(0.79, 1)
 texture = ExtResource("3_bni4w")
 expand_mode = 1
+stretch_mode = 5
 script = ExtResource("4_bni4w")
 dialogue_key = "deleted_draft"
 
 [node name="Peeling_Barrier" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 42.0
-offset_top = 218.00002
-offset_right = 3550.0
-offset_bottom = 2849.0
-scale = Vector2(0.091420546, 0.101932876)
+offset_left = 108.0
+offset_top = 412.00003
+offset_right = 546.375
+offset_bottom = 740.875
+scale = Vector2(1, 1.121)
 texture = ExtResource("5_qtxmt")
+expand_mode = 1
+stretch_mode = 5
 script = ExtResource("4_bni4w")
 dialogue_key = "peeling_barrier"

@@ -2,15 +2,15 @@
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_ym56t"]
 [ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_2x8du"]
-[ext_resource type="Texture2D" uid="uid://bdes2obarmrw6" path="res://Assets/Photos/TextBook.jpg" id="3_r7y8c"]
+[ext_resource type="Texture2D" uid="uid://cu28xx6syt58b" path="res://Assets/Photos/DueRent.jpg" id="3_2x8du"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_2x8du"]
 [ext_resource type="Texture2D" uid="uid://6ob4kl8m4kwo" path="res://Assets/Photos/half packed suitcase.jpeg" id="5_2x8du"]
 
 [node name="Page_8" type="Control" unique_id=1358197737]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 300.0
-offset_bottom = 400.0
+offset_right = 640.0
+offset_bottom = 840.0
 mouse_filter = 1
 script = ExtResource("1_ym56t")
 
@@ -19,8 +19,6 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 100.0
-offset_bottom = 120.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_2x8du")
@@ -28,23 +26,28 @@ expand_mode = 1
 
 [node name="Debt_Notice" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 99.0
-offset_top = 31.0
-offset_right = 2056.0
-offset_bottom = 1317.0
-scale = Vector2(0.105816476, 0.13147876)
-texture = ExtResource("3_r7y8c")
+offset_left = 288.00003
+offset_top = 23.999998
+offset_right = 5249.0
+offset_bottom = 7040.0
+rotation = 0.17096652
+scale = Vector2(0.033, 0.04)
+texture = ExtResource("3_2x8du")
 expand_mode = 1
+stretch_mode = 5
 script = ExtResource("4_2x8du")
 dialogue_key = "status_watch"
 
 [node name="HalfPacked_SuitCase" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 55.0
-offset_top = 232.0
-offset_right = 3563.0
-offset_bottom = 2863.0
-scale = Vector2(0.08503486, 0.10046846)
+offset_left = 66.0
+offset_top = 319.00003
+offset_right = 3573.0
+offset_bottom = 2950.0
+rotation = 0.04834336
+scale = Vector2(0.15, 0.177)
 texture = ExtResource("5_2x8du")
+expand_mode = 1
+stretch_mode = 5
 script = ExtResource("4_2x8du")
 dialogue_key = "halfpacked_suitcase"

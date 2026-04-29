@@ -5,8 +5,8 @@ var offset: Vector2 = Vector2.ZERO
 @export var dialogue_key: String = ""
 
 func scatter():
-	var max_x = 300.0 - size.x
-	var max_y = 400.0 - size.y
+	var max_x = 640.0 - size.x
+	var max_y = 840.0 - size.y
 	position = Vector2(randf_range(0, max_x), randf_range(0,max_y))
 
 func _gui_input(event):
@@ -34,8 +34,8 @@ func _gui_input(event):
 	elif event is InputEventMouseMotion and dragging:
 		position = get_viewport().get_mouse_position() - offset
 		
-		var max_x = 300.0 - size.x
-		var max_y = 400.0 - size.y
+		var max_x = 640.0 - size.x
+		var max_y = 840.0 - size.y
 		
 		position.x = clamp(position.x, 0, max_x)
 		position.y = clamp(position.y, 0, max_y)

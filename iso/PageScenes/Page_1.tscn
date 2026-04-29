@@ -9,8 +9,9 @@
 [node name="Page_1" type="Control" unique_id=1358197737]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 400.0
-offset_bottom = 520.0
+offset_top = -2.0
+offset_right = 640.0
+offset_bottom = 838.0
 mouse_filter = 1
 script = ExtResource("1_atan8")
 
@@ -26,23 +27,28 @@ expand_mode = 1
 
 [node name="BirthdayCake" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 40.0
-offset_top = 27.000002
-offset_right = 1997.0
-offset_bottom = 1313.0
-scale = Vector2(0.16096845, 0.15947264)
+offset_left = 61.0
+offset_top = 33.0
+offset_right = 550.0
+offset_bottom = 400.0
+rotation = -0.03198331
+scale = Vector2(1, 1.008)
 texture = ExtResource("3_uku51")
 expand_mode = 1
+stretch_mode = 5
 script = ExtResource("4_uku51")
 dialogue_key = "birthday_cake"
 
 [node name="BlackCrayon" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 80.0
-offset_top = 264.0
-offset_right = 3588.0
-offset_bottom = 2744.0
-scale = Vector2(0.06763942, 0.082610935)
+offset_left = 100.0
+offset_top = 363.00003
+offset_right = 547.5
+offset_bottom = 673.0
+rotation = 0.030951766
+scale = Vector2(1, 1.398)
 texture = ExtResource("3_11f8q")
+expand_mode = 1
+stretch_mode = 5
 script = ExtResource("4_uku51")
 dialogue_key = "black_crayon"

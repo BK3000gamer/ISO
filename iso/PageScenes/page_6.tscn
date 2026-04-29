@@ -2,15 +2,15 @@
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_42g5o"]
 [ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_eh0vv"]
-[ext_resource type="Texture2D" uid="uid://bdes2obarmrw6" path="res://Assets/Photos/TextBook.jpg" id="3_kthdl"]
-[ext_resource type="Texture2D" uid="uid://d0shjh6pc12sp" path="res://Assets/Photos/Clouded_Sunset.jpg" id="4_a330l"]
+[ext_resource type="Texture2D" uid="uid://bp3nuidhg5c4d" path="res://Assets/Photos/Bar.jpg" id="3_egwtp"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_egwtp"]
+[ext_resource type="Texture2D" uid="uid://sefc4qc5cjnr" path="res://Assets/Photos/Clouded_SunsetDirty.jpg" id="5_7rkj0"]
 
 [node name="Page_6" type="Control" unique_id=1358197737]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 300.0
-offset_bottom = 400.0
+offset_right = 640.0
+offset_bottom = 840.0
 mouse_filter = 1
 script = ExtResource("1_42g5o")
 
@@ -19,8 +19,6 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 100.0
-offset_bottom = 120.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_eh0vv")
@@ -28,23 +26,28 @@ expand_mode = 1
 
 [node name="Social_Exit" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 59.0
-offset_top = 24.0
-offset_right = 2016.0
-offset_bottom = 1310.0
+offset_left = 245.00003
+offset_top = 26.000004
+offset_right = 2245.0
+offset_bottom = 2526.0
+rotation = 0.152639
 scale = Vector2(0.1382565, 0.19271018)
-texture = ExtResource("3_kthdl")
+texture = ExtResource("3_egwtp")
 expand_mode = 1
+stretch_mode = 5
 script = ExtResource("4_egwtp")
 dialogue_key = "social_exit"
 
 [node name="Clouded_Sunset" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 58.0
-offset_top = 275.0
-offset_right = 3566.0
-offset_bottom = 2775.0
-scale = Vector2(0.07859887, 0.08800319)
-texture = ExtResource("4_a330l")
+offset_left = 39.0
+offset_top = 592.00006
+offset_right = 3539.0
+offset_bottom = 3092.0
+rotation = -0.05345223
+scale = Vector2(0.16, 0.07)
+texture = ExtResource("5_7rkj0")
+expand_mode = 1
+stretch_mode = 5
 script = ExtResource("4_egwtp")
 dialogue_key = "clouded_sunset"
