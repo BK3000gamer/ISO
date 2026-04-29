@@ -1,17 +1,16 @@
 [gd_scene format=3 uid="uid://cng8cb4vamr74"]
 
-[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="1_3xcor"]
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_c5c7x"]
 [ext_resource type="Texture2D" uid="uid://bc8exsd3lisax" path="res://Assets/Photos/Stitched_Toy.png" id="2_c5c7x"]
+[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_rbaby"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_rbaby"]
 [ext_resource type="Texture2D" uid="uid://bsbt27bdkyi23" path="res://Assets/Photos/perfect_card.jpeg" id="5_rbaby"]
 
 [node name="Page_2" type="Control" unique_id=1358197737]
 layout_mode = 3
 anchors_preset = 0
-offset_top = 3.0
 offset_right = 640.0
-offset_bottom = 843.0
+offset_bottom = 840.0
 mouse_filter = 1
 script = ExtResource("1_c5c7x")
 
@@ -22,15 +21,15 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_3xcor")
+texture = ExtResource("2_rbaby")
 expand_mode = 1
 
 [node name="StitchedToy" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 104.00001
-offset_top = -10.0
-offset_right = 2152.0
-offset_bottom = 2038.0
+offset_left = 241.00002
+offset_top = -33.0
+offset_right = 2289.0
+offset_bottom = 2015.0
 rotation = -0.053660445
 scale = Vector2(0.205698, 0.205698)
 texture = ExtResource("2_c5c7x")
@@ -39,10 +38,10 @@ dialogue_key = "stitched_toy"
 
 [node name="PerfectCard" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 95.99999
-offset_top = 454.0
-offset_right = 1869.4915
-offset_bottom = 1586.465
+offset_left = 71.0
+offset_top = 297.0
+offset_right = 1844.4915
+offset_bottom = 1429.465
 rotation = 0.06384863
 scale = Vector2(0.257441, 0.257441)
 texture = ExtResource("5_rbaby")

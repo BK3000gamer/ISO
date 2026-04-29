@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="BookPage" format=3 uid="uid://cfmslvk8hwafp"]
 
-[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="1_6abx4"]
+[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="1_6abx4"]
 [ext_resource type="Script" uid="uid://bd056nbfj2dlb" path="res://Book_Page.gd" id="1_rk206"]
 [ext_resource type="PackedScene" uid="uid://y1k88pjwi7w5" path="res://PageScenes/Page_3(Puzzle).tscn" id="2_65t6v"]
 

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dgqpicdg55qwx"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_42g5o"]
-[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_eh0vv"]
+[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_egwtp"]
 [ext_resource type="Texture2D" uid="uid://bp3nuidhg5c4d" path="res://Assets/Photos/Bar.jpg" id="3_egwtp"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_egwtp"]
 [ext_resource type="Texture2D" uid="uid://sefc4qc5cjnr" path="res://Assets/Photos/Clouded_SunsetDirty.jpg" id="5_7rkj0"]
@@ -21,15 +21,15 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_eh0vv")
+texture = ExtResource("2_egwtp")
 expand_mode = 1
 
 [node name="Social_Exit" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 177.99997
-offset_top = 26.000002
-offset_right = 1740.8606
-offset_bottom = 1979.5757
+offset_left = 282.0
+offset_top = -22.999998
+offset_right = 1844.8606
+offset_bottom = 1930.5757
 rotation = 0.152639
 scale = Vector2(0.19271, 0.19271)
 texture = ExtResource("3_egwtp")
@@ -40,10 +40,10 @@ dialogue_key = "social_exit"
 
 [node name="Clouded_Sunset" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 87.0
-offset_top = 483.00006
-offset_right = 2893.7148
-offset_bottom = 2487.7964
+offset_left = 4.000003
+offset_top = 362.00003
+offset_right = 2810.7148
+offset_bottom = 2366.7964
 rotation = -0.05345223
 scale = Vector2(0.16, 0.16)
 texture = ExtResource("5_7rkj0")

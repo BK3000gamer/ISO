@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://ihgkgmib51cx"]
+
+[ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_ik7y1"]
+[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_ik7y1"]
+
+[node name="Cover" type="Control" unique_id=1358197737]
+layout_mode = 3
+anchors_preset = 0
+offset_top = -2.0
+offset_right = 640.0
+offset_bottom = 838.0
+mouse_filter = 1
+script = ExtResource("1_ik7y1")
+
+[node name="Page" type="TextureRect" parent="." unique_id=1124862306]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_ik7y1")
+expand_mode = 1

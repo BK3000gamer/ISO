@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b2c4wnfp55f42"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_ym56t"]
-[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_2x8du"]
+[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_2x8du"]
 [ext_resource type="Texture2D" uid="uid://cu28xx6syt58b" path="res://Assets/Photos/DueRent.jpg" id="3_2x8du"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_2x8du"]
 [ext_resource type="Texture2D" uid="uid://6ob4kl8m4kwo" path="res://Assets/Photos/half packed suitcase.jpeg" id="5_2x8du"]
@@ -26,10 +26,10 @@ expand_mode = 1
 
 [node name="Debt_Notice" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 288.00003
-offset_top = 23.999998
-offset_right = 5249.0
-offset_bottom = 7040.0
+offset_left = 321.00003
+offset_top = 44.999992
+offset_right = 5282.0
+offset_bottom = 7061.0
 rotation = 0.17096652
 scale = Vector2(0.04, 0.04)
 texture = ExtResource("3_2x8du")

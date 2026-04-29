@@ -1,9 +1,12 @@
 [gd_resource type="Resource" script_class="BookPage" format=3 uid="uid://r58uuuushkjv"]
 
 [ext_resource type="Script" uid="uid://bd056nbfj2dlb" path="res://Book_Page.gd" id="1_cm1fp"]
-[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="1_itfiq"]
+[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="1_xmieh"]
+[ext_resource type="PackedScene" uid="uid://kdsywtppnj81" path="res://PageScenes/End.tscn" id="2_f3n7m"]
 
 [resource]
 script = ExtResource("1_cm1fp")
-photo_texture = ExtResource("1_itfiq")
+page_type = 1
+photo_texture = ExtResource("1_xmieh")
+puzzle_scene = ExtResource("2_f3n7m")
 metadata/_custom_type_script = "uid://bd056nbfj2dlb"

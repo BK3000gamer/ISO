@@ -38,6 +38,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 expand_mode = 1
+flip_h = true
 
 [node name="Right_Page" type="Control" parent="." unique_id=1139378063]
 clip_contents = true

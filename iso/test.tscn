@@ -3,8 +3,13 @@
 [ext_resource type="PackedScene" uid="uid://cje7sw22dd5jx" path="res://book.tscn" id="1_37kl0"]
 [ext_resource type="PackedScene" uid="uid://db6kod2ebfgs" path="res://dialog_player.tscn" id="2_8uh7m"]
 [ext_resource type="FontFile" uid="uid://ccjtpqqxegr3f" path="res://font/Antiquarian.ttf" id="3_6uqi0"]
+[ext_resource type="PackedScene" uid="uid://dy6g8i87pe1s" path="res://PageScenes/BookCover.tscn" id="4_ppyta"]
 
 [node name="test" type="Node2D" unique_id=238184420]
+
+[node name="MeshInstance2D" parent="." unique_id=77083204 instance=ExtResource("4_ppyta")]
+position = Vector2(989, 41.000004)
+scale = Vector2(1.05, 1.05)
 
 [node name="BookManager" parent="." unique_id=2069778489 instance=ExtResource("1_37kl0")]
 position = Vector2(989, 897)

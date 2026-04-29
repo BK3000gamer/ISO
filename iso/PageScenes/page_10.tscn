@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c1o8wsaiu87ww"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_5anp6"]
-[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_gtlyu"]
+[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_gtlyu"]
 [ext_resource type="Texture2D" uid="uid://2ih5u61qsqxu" path="res://Assets/Photos/Cracked_Phone.jpg" id="3_gtlyu"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_gtlyu"]
 [ext_resource type="Texture2D" uid="uid://ddm882mor7bte" path="res://Assets/Photos/LightBulb.jpg" id="5_vcnw1"]
@@ -26,10 +26,10 @@ expand_mode = 1
 
 [node name="Cracked_Screen" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 199.0
-offset_top = 103.0
-offset_right = 3199.0
-offset_bottom = 4103.0
+offset_left = 233.0
+offset_top = 45.000004
+offset_right = 3233.0
+offset_bottom = 4045.0
 rotation = -0.23210557
 scale = Vector2(0.1, 0.1)
 texture = ExtResource("3_gtlyu")
@@ -40,10 +40,10 @@ dialogue_key = "cracked_screen"
 
 [node name="Burnt_Out_Spark" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 120.0
-offset_top = 418.99997
-offset_right = 4120.0
-offset_bottom = 4419.0
+offset_left = 90.0
+offset_top = 324.99994
+offset_right = 4090.0
+offset_bottom = 4325.0
 rotation = 0.26086146
 scale = Vector2(0.076846, 0.076846)
 texture = ExtResource("5_vcnw1")

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://84wp6xv5oomw"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_mnljn"]
-[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_bni4w"]
+[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_bni4w"]
 [ext_resource type="Texture2D" uid="uid://njl1onbmetso" path="res://Assets/Photos/deleted_draft.png" id="3_bni4w"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_bni4w"]
 [ext_resource type="Texture2D" uid="uid://k3yct7iqo0pk" path="res://Assets/Photos/peeling_barrier.jpeg" id="5_qtxmt"]
@@ -19,8 +19,6 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 1.0
-offset_right = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_bni4w")
@@ -28,10 +26,11 @@ expand_mode = 1
 
 [node name="Deleted_Draft" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = -1.0
-offset_top = -109.0
-offset_right = 611.0
-offset_bottom = 503.0
+offset_left = 76.0
+offset_top = -129.0
+offset_right = 688.0
+offset_bottom = 483.0
+scale = Vector2(1.004068, 0.9815148)
 texture = ExtResource("3_bni4w")
 expand_mode = 1
 stretch_mode = 5
@@ -40,10 +39,11 @@ dialogue_key = "deleted_draft"
 
 [node name="Peeling_Barrier" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 108.0
-offset_top = 447.0
-offset_right = 546.375
-offset_bottom = 775.875
+offset_left = 53.000008
+offset_top = 284.0
+offset_right = 491.375
+offset_bottom = 612.875
+rotation = 0.13331282
 texture = ExtResource("5_qtxmt")
 expand_mode = 1
 stretch_mode = 5

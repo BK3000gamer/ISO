@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://4qvxujev6aw1"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_atan8"]
-[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="1_ot2nv"]
+[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_uku51"]
 [ext_resource type="Texture2D" uid="uid://dpwotwf1wq14f" path="res://Assets/Photos/Black_Crayon.png" id="3_11f8q"]
 [ext_resource type="Texture2D" uid="uid://dpamtp6d3cs32" path="res://Assets/Photos/birthday_cake.jpeg" id="3_uku51"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_uku51"]
@@ -9,9 +9,8 @@
 [node name="Page_1" type="Control" unique_id=1358197737]
 layout_mode = 3
 anchors_preset = 0
-offset_top = -2.0
 offset_right = 640.0
-offset_bottom = 838.0
+offset_bottom = 840.0
 mouse_filter = 1
 script = ExtResource("1_atan8")
 
@@ -22,16 +21,18 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_ot2nv")
+texture = ExtResource("2_uku51")
 expand_mode = 1
+flip_h = true
 
 [node name="BirthdayCake" type="TextureRect" parent="." unique_id=1351990875]
 layout_mode = 1
-offset_left = 72.00001
-offset_top = 61.000008
-offset_right = 561.0
-offset_bottom = 428.0
-rotation = -0.03198331
+offset_left = 86.0
+offset_top = 53.000008
+offset_right = 575.0
+offset_bottom = 420.0
+rotation = -0.004332587
+scale = Vector2(0.8, 0.8)
 texture = ExtResource("3_uku51")
 expand_mode = 1
 stretch_mode = 5
@@ -40,11 +41,12 @@ dialogue_key = "birthday_cake"
 
 [node name="BlackCrayon" type="TextureRect" parent="." unique_id=975299792]
 layout_mode = 1
-offset_left = 94.99999
-offset_top = 445.99997
-offset_right = 542.5
-offset_bottom = 756.0
-rotation = 0.030951766
+offset_left = 226.0
+offset_top = 355.00003
+offset_right = 673.5
+offset_bottom = 665.0
+rotation = 0.09929045
+scale = Vector2(0.7, 0.7)
 texture = ExtResource("3_11f8q")
 expand_mode = 1
 stretch_mode = 5

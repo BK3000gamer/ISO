@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cqkgvhpdafrge"]
 
 [ext_resource type="Script" uid="uid://da8q6dr1kdpfk" path="res://puzzle_photo.gd" id="1_wukux"]
-[ext_resource type="Texture2D" uid="uid://dgvc5lpywka6i" path="res://icon.svg" id="2_d1ag4"]
+[ext_resource type="Texture2D" uid="uid://d303o4pn7vuxg" path="res://BookPageResource/PageTexture.tres" id="2_d1ag4"]
 [ext_resource type="Texture2D" uid="uid://be6m1tcf1rp4v" path="res://Assets/Photos/PayCheck.jpg" id="3_d1ag4"]
 [ext_resource type="Script" uid="uid://cunek5bjcsgml" path="res://Interact_photo.gd" id="4_d1ag4"]
 [ext_resource type="Texture2D" uid="uid://bxn3yq0rpa313" path="res://Assets/Photos/Rings.jpg" id="4_ickwb"]
@@ -40,6 +40,7 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_d1ag4")
 expand_mode = 1
+flip_h = true
 
 [node name="First_Paycheck" type="TextureRect" parent="." unique_id=110202312]
 layout_mode = 1
@@ -48,10 +49,10 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -505.58743
-offset_top = -767.0278
-offset_right = 3334.4126
-offset_bottom = 1392.9722
+offset_left = -576.0
+offset_top = -798.0
+offset_right = 3264.0
+offset_bottom = 1362.0
 grow_horizontal = 0
 grow_vertical = 0
 scale = Vector2(0.1, 0.1)
