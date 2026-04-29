@@ -60,6 +60,8 @@ expand_mode = 1
 
 [node name="Page_Flipper" type="MeshInstance2D" parent="." unique_id=640898764]
 script = ExtResource("1_6nh0f")
+curve_tightness = 9.0
+total_bend = 160.0
 drag_sens = 1.5
 page_width = 300.0
 page_height = 400.0

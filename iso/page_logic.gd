@@ -6,6 +6,8 @@ signal flip_completed # This tells the manager if page is flipped
 #mouse dragging
 var dragging: bool = false
 var origin_right: bool = false
+@export_range(1.0, 10.0) var curve_tightness: float = 6.0 
+@export_range(90.0, 180.0) var total_bend: float = 140.0
 @export var drag_sens: float = 1.15
 @export var flip_speed: float = 1.0
 @export var segment_n: int = 50
@@ -45,8 +47,8 @@ func generate_page_mesh():
 	var clamped_end = clamp((move - 0.5) * 2.0, 0.0, 1.0)
 
 	# pow is the twerp equivalent
-	var _to_middle: float = pow(clamped_middle, 4.0)
-	var _to_end: float = 1.0 - pow(1.0 - clamped_end, 4.0)
+	var _to_middle: float = pow(clamped_middle, curve_tightness)
+	var _to_end: float = 1.0 - pow(1.0 - clamped_end, curve_tightness)
 
 	var _start_dir: float = 0.0
 	var _start_bend: float = 0.0
@@ -56,10 +58,10 @@ func generate_page_mesh():
 	
 	if origin_right:
 		_mid_dir = -20.0
-		_mid_bend = -140.0 / segment_n
+		_mid_bend = -total_bend / segment_n
 	else:
 		_mid_dir = -160.0
-		_mid_bend = 140.0 / segment_n
+		_mid_bend = total_bend / segment_n
 
 	var _end_dir: float = -180.0
 	var _end_bend: float = 0.0
